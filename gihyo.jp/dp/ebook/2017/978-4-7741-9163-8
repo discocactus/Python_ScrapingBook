@@ -1,0 +1,635 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>理系に育てる基礎のキソ しんかのお話365日 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="生き物っていつ生まれたのだろう？昔はどんな生き物がすんでいたの？どんな感じに進化してきたのかな？今，私たちが生きているのは，大昔の生き物が命をつないでくれたから。そんな古生物たちのふしぎやワクワクを，365のお話でつづりました。子どもはもちろん，大人も気になる「なぞ」と「ふしぎ」を徹底追求しているので，読みたくなるお話がてんこ盛り。漢字には全てルビがふってあるので，すらすら読み進めることができます。文章はわかりやすく，でも，かなりディープな内容もあるので，読み応え十分。しかも，日本古生物学会で活躍する研究有志一同のサポートにより，科学的な考察もばっちり。子どもたちに正しい知識を身につけさせることもできます。さらに，お話の中にはミニコーナーをもうけてあるので，子どもたちが「見学」「体験」しに行くこともできます。全国にある古生物を展示している博物館リストも掲載しているので，自分が住んでいる町からでも遊びに行くことも！１日１話の読み進めで，知識の幅が大きく拡がります。子どもはもとより，大人も楽しめる１冊。親子で，古生物の魅力にどっぷりはまってみませんか。"/>
+  <meta name="keywords" content="土屋健電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="理系に育てる基礎のキソ しんかのお話365日 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="生き物っていつ生まれたのだろう？昔はどんな生き物がすんでいたの？どんな感じに進化してきたのかな？今，私たちが生きているのは，大昔の生き物が命をつないでくれたから。そんな古生物たちのふしぎやワクワクを，365のお話でつづりました。子どもはもちろん，大人も気になる「なぞ」と「ふしぎ」を徹底追求しているので，読みたくなるお話がてんこ盛り。漢字には全てルビがふってあるので，すらすら読み進めることができます。文章はわかりやすく，でも，かなりディープな内容もあるので，読み応え十分。しかも，日本古生物学会で活躍する研究有志一同のサポートにより，科学的な考察もばっちり。子どもたちに正しい知識を身につけさせることもできます。さらに，お話の中にはミニコーナーをもうけてあるので，子どもたちが「見学」「体験」しに行くこともできます。全国にある古生物を展示している博物館リストも掲載しているので，自分が住んでいる町からでも遊びに行くことも！１日１話の読み進めで，知識の幅が大きく拡がります。子どもはもとより，大人も楽しめる１冊。親子で，古生物の魅力にどっぷりはまってみませんか。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9163-8"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9163-8.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E7%90%86%E5%B7%A5%E3%83%BB%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">理系に育てる基礎のキソ しんかのお話<wbr/>365<wbr/>日</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9163-8.jpg" alt="理系に育てる基礎のキソ しんかのお話365日"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">土屋健　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-08-01">2017年8月1日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-08-01">2017年8月1日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9073-0" target="_blank">2017年7月22日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">2,300円 <a id="pid401810" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">400</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9163-8" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9163-8" data-text="理系に育てる基礎のキソ しんかのお話365日 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9163-8" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9163-8"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9163-8" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>生き物っていつ生まれたのだろう？<br />
+昔はどんな生き物がすんでいたの？<br />
+どんな感じに進化してきたのかな？</p>
+
+<p>今，<wbr/>私たちが生きているのは，<wbr/>大昔の生き物が命をつないでくれたから。<br />
+そんな古生物たちのふしぎやワクワクを，<wbr/>365のお話でつづりました。<br />
+子どもはもちろん，<wbr/>大人も気になる「なぞ」と「ふしぎ」を徹底追求しているので，<wbr/>読みたくなるお話がてんこ盛り。</p>
+
+<p>漢字には全てルビがふってあるので，<wbr/>すらすら読み進めることができます。<br />
+文章はわかりやすく，<wbr/>でも，<wbr/>かなりディープな内容もあるので，<wbr/>読み応え十分。<br />
+しかも，<wbr/>日本古生物学会で活躍する研究有志一同のサポートにより，<wbr/>科学的な考察もばっちり。<br />
+子どもたちに正しい知識を身につけさせることもできます。</p>
+
+<p>さらに，<wbr/>お話の中にはミニコーナーをもうけてあるので，<wbr/>子どもたちが「見学」「体験」しに行くこともできます。<br />
+全国にある古生物を展示している博物館リストも掲載しているので，<wbr/>自分が住んでいる町からでも遊びに行くことも！</p>
+
+<p>１日１話の読み進めで，<wbr/>知識の幅が大きく拡がります。</p>
+
+<p>子どもはもとより，<wbr/>大人も楽しめる１冊。<br />
+親子で，<wbr/>古生物の魅力にどっぷりはまってみませんか。</p><aside class="author"><h3>土屋健（つちやけん）</h3><p>オフィス ジオパレオント代表。サイエンスライター。埼玉県生まれ。金沢大学大学院自然科学研究科で修士号を取得（専門は地質学，<wbr/>古生物学）。その後，<wbr/>科学雑誌『Newton』の記者・<wbr/>編集者，<wbr/>部長代理を経て独立し，<wbr/>現職。恐竜やその他の古生物に関する著作多数。『Newton』や『子供の科学』などの一般向け科学雑誌への寄稿も多い。日本地質学会会員，<wbr/>日本古生物学会会員。愛犬たちとの散歩と愛犬たちとの昼寝が日課で，<wbr/>出張先ではイヌ用土産を探す。主な著作に『理科が好きな子に育つふしぎのお話365』（共著：誠文堂新光社），<wbr/>『古第三紀・<wbr/>新第三紀・<wbr/>第四紀の生物 上巻』『古第三紀・<wbr/>新第三紀・<wbr/>第四紀の生物 下巻』（ともに技術評論社），<wbr/>『「もしも？」の図鑑 古生物の飼い方』（実業之日本社），<wbr/>『ザ・<wbr/>パーフェクト』（誠文堂新光社）など。監修書に『ときめく化石図鑑』（著：土屋香，<wbr/>山と渓谷社）など。</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35079">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>先カンブリア時代</h3>
+<ul class="toc">
+<li>1月 1日／最も古い化石!?　プリマエヴィフィルム</li>
+<li>1月 2日／地球は大昔，完全に凍りついていた！</li>
+<li>1月 3日／変わった生き物が登場！　エディアカラ紀</li>
+<li>1月 4日／ちぐはぐ生物　ディッキンソニア</li>
+<li>1月 5日／葉っぱのような形をした　カルニオディスクス</li>
+<li>1月 6日／体が3分割!?　トリブラキディウム</li>
+<li>1月 7日／集団でみつかるちぐはぐ生物　プテリディニウム</li>
+<li>1月 8日／体の上に「T」をもつ　パルヴァンコリナ</li>
+<li>1月 9日／イカやアサリの仲間？　キンベレラ</li>
+<li>1月10日／生物が爆発的に多くなった　アヴァロンの爆発</li>
+<li>1月11日／★コラム・地球の年齢はどうやってわかったの?</li>
+
+</ul>
+<h3>カンブリア紀</h3>
+<ul class="toc">
+<li>1月12日／およそ3億年間も続いた　古生代</li>
+<li>1月13日／弱肉強食の世界が始まる　カンブリア紀</li>
+<li>1月14日／部品だけの謎の化石　SSFs</li>
+<li>1月15日／“貝殻”を2枚のせた　ハルキエリア</li>
+<li>1月16日／“貝殻”1枚，とげたくさん　オルソロザンクルス</li>
+<li>1月17日／カンブリア紀の海の最強生物　アノマロカリス</li>
+<li>1月18日／網のような触手をもつ　タミシオカリス</li>
+<li>1月19日／歩くためのあしをもつ　パラペイトイア</li>
+<li>1月20日／世界中で繁栄した　アノマロカリス類</li>
+<li>1月21日／体が小さかった　アノマロカリス類の祖先</li>
+<li>1月22日／五つの眼をもつ　オパビニア</li>
+<li>1月23日／キラキラ輝く角をもつ　マルレラ</li>
+<li>1月24日／★コラム・古生物の色はわからない?</li>
+<li>1月25日／どっちがあしで，どっちが頭?　ハルキゲニア</li>
+<li>1月26日／ナメクジの仲間だった！　オドントグリフス</li>
+<li>1月27日／エビではなく，イカだった　ネクトカリス</li>
+<li>1月28日／小さな“一つ目小僧”　カンブロパキコーペ</li>
+<li>1月29日／平たい形をした　カンブリア紀の三葉虫</li>
+<li>1月30日／最も“身近”な三葉虫?　エルラシア</li>
+<li>1月31日／とてもめずらしい　神経が化石になった生物</li>
+
+<li>2月 1日／歩くサボテン?　ディアニア</li>
+<li>2月 2日／閉じた殻で頭を覆った　ヴェトゥリコラ</li>
+<li>2月 3日／海底で暮らしていた　植物のような動物</li>
+<li>2月 4日／最古のサカナ　ミロクンミンギア</li>
+<li>2月 5日／カナダでみつかる　ピカイアとメタスプリッギナ</li>
+<li>2月 6日／陸で暮らしていた!?　アパンクラ</li>
+<li>2月 7日／カンブリア紀の大進化の原因?　眼の誕生</li>
+
+</ul>
+<h3>オルドビス紀</h3>
+<ul class="toc">
+<li>2月 8日／動物の種類が増えた　オルドビス紀</li>
+<li>2月 9日／クジラのようなアノマロカリス類　エーギロカシス</li>
+<li>2月10日／トゲトゲの角を6本もつ　フルカ</li>
+<li>2月11日／海で暮らすサソリ!?　ウミサソリ類</li>
+<li>2月12日／まるでカタツムリ！ アサフス・コワレウスキー</li>
+<li>2月13日／眼を見ればわかる　泳ぎが得意な三葉虫類</li>
+<li>2月14日／全身がとげだらけの三葉虫類　ボエダスピス</li>
+<li>2月15日／巨大な殻をもつハンター，カメロケラス</li>
+<li>2月16日／100年以上も謎だった　コノドント</li>
+<li>2月17日／まんじゅうにのったヒトデ?　イソロフス</li>
+<li>2月18日／四角い体にとげが2本　エノプロウラ</li>
+<li>2月19日／うろこをもった最初のサカナ，アランダスピス</li>
+<li>2月20日／大きな海は渡れなかった!?　サカバンバスピス</li>
+<li>2月21日／最初のカブトガニ　ルナタスピス</li>
+<li>2月22日／五大大量絶滅の最初の一つ　オルドビス紀末大量絶滅事件</li>
+
+</ul>
+<h3>シルル紀</h3>
+<ul class="toc">
+<li>2月23日／地球がとても暖かくなった　シルル紀</li>
+<li>2月24日／いろいろな役割のあしをもつ　ミクソプテルス</li>
+<li>2月25日／泳ぎが得意なウミサソリ，プテリゴトゥス</li>
+<li>2月26日／明るい所が苦手なウミサソリ，アクチラムス</li>
+<li>2月27日／泳ぎが苦手なウミサソリ?　ココモプテルス</li>
+<li>2月28日／最初のサソリは海にいた!　ドリコフォヌス</li>
+<li></li>
+<li>3月 1日／大型犬なみの巨大なサソリ，ブロントスコルピオ</li>
+<li>3月 2日／節のあるカブトガニ，ヴェヌストゥルス</li>
+<li>3月 3日／シルル紀の海にいた　植物のような動物</li>
+<li>3月 4日／つぶつぶで平たい三葉虫　アークティヌルス</li>
+<li>3月 5日／小さな“王蟲”　オッファコルス</li>
+<li>3月 6日／ヘルメットをかぶった　キシロコリス</li>
+<li>3月 7日／“最も古い雄”　コリンボサトン</li>
+<li>3月 8日／よろいで覆われた　シルル紀のサカナたち</li>
+<li>3月 9日／サメ肌で，あごがないサカナ，フレボレピス</li>
+<li>3月10日／ついに登場！ あごのあるサカナ，クリマティウス</li>
+<li>3月11日／大繁栄の先陣　アンドレオレピス</li>
+<li>3月12日／シルル紀の水中の狩人　メガマスタックス</li>
+<li>3月13日／最初の陸上植物　クックソニア</li>
+
+</ul>
+<h3>デボン紀</h3>
+<ul class="toc">
+<li>3月14日／脊椎動物が主役になった　デボン紀</li>
+<li>3月15日／“最後”のアノマロカリス類　シンダーハンネス</li>
+<li>3月16日／“最後”のマルレラ形類　ミメタスター</li>
+<li>3月17日／史上最大級のヒトデ，ヘリアンサスター</li>
+<li>3月18日／“腕”を突き刺して進む！　レノキスティス</li>
+<li>3月19日／平たい甲冑魚　ゲムエンディナ</li>
+<li>3月20日／大型のウミグモ，パレオイソプス</li>
+<li>3月21日／本格的に上陸を始めた植物　リニア</li>
+<li>3月22日／うろこのような葉をもつ植物　アステロキシロン</li>
+<li>3月23日／クモのようで，クモではない　パレオカリヌス</li>
+<li>3月24日／大繁栄した無顎類　ケファラスピス</li>
+<li>3月25日／“腕”にもよろいがあった　ボスリオレピス</li>
+<li>3月26日／交尾器をもつサカナ，ミクロブラキウス</li>
+<li>3月27日／へその緒があった!　マテルピスキス</li>
+<li>3月28日／最強の板皮類　ダンクルオステウス</li>
+<li>3月29日／古いサメの仲間，クラドセラケ</li>
+<li>3月30日／原始的な“シーラカンス”ミグアシャイア</li>
+<li>3月31日／★コラム・生きている化石ってどんな化石?</li>
+
+<li>4月 1日／4メートルの巨大な淡水魚　ハイネリア</li>
+<li>4月 2日／殻を少し開くだけで食事ができる!?　パラスピリファー</li>
+<li>4月 3日／丸まるウミユリ，アンモニクリヌス</li>
+<li>4月 4日／“巻きかけ”の殻をもつ　アネトセラス</li>
+<li>4月 5日／複眼のタワーをもつ三葉虫　エルベノチレ</li>
+<li>4月 6日／頭にフォークをもつ三葉虫類　ワリセロプス</li>
+<li>4月 7日／モンスターと名づけられた　ディクラヌルス</li>
+<li>4月 8日／とげとげの巨大な三葉虫　テラタスピス</li>
+<li>4月 9日／ビッグ・ファイブの二つ目　デボン紀後期大量絶滅事件</li>
+<li>4月10日／ひれの中に腕!?　ユーステノプテロン</li>
+<li>4月11日／ワニに似た頭部をもつ　パンデリクチス</li>
+<li>4月12日／腕立てふせができたサカナ，ティクターリク</li>
+<li>4月13日／手あしをもった両生類　アカントステガ</li>
+<li>4月14日／陸で暮らせた両生類　イクチオステガ</li>
+<li>4月15日／最初の樹木　アルカエオプテリス</li>
+
+</ul>
+<h3>石炭紀</h3>
+<ul class="toc">
+<li>4月16日／地層に石炭がたくさん　石炭紀</li>
+<li>4月17日／とげで武装したウミユリ類　ドリクリヌス</li>
+<li>4月18日／うろこや封印の模様の木　石炭紀の巨木たち</li>
+<li>4月19日／アイロン台をのせたサメ!?　アクモニスティオン</li>
+<li>4月20日／メスとオスのちがいがわかる　石炭紀のサメの仲間</li>
+<li>4月21日／初めて陸上を歩きまわった　ペデルペス</li>
+<li>4月22日／ヘビのような両生類　レティスクス</li>
+<li>4月23日／水の中に“帰った”！　クラッシギリヌス</li>
+<li>4月24日／モンスターとよばれたサカナ，ツリモンストラム</li>
+<li>4月25日／ハート型の頭をしたクモ，ファランギオターブス</li>
+<li>4月26日／レーダーを備えたサメ，バンドリンガ</li>
+<li>4月27日／★コラム・化石が入っている「ノジュール」って何？</li>
+<li>4月28日／史上最大の陸上節足動物　アースロプレウラ</li>
+<li>4月29日／木の中にいた　ヒロノムス</li>
+<li>4月30日／6枚の翅をもつ昆虫　ステノディクティア</li>
+
+<li>5月 1日／カラスよりも大きいトンボ，メガネウラ</li>
+<li>5月 2日／網を張れないクモの仲間　イモドナクラネ</li>
+
+</ul>
+<h3>ペルム紀</h3>
+<ul class="toc">
+<li>5月 3日／古生代最後の時代　ペルム紀</li>
+<li>5月 4日／超大陸で広く繁栄した植物　グロッソプテリス</li>
+<li>5月 5日／アメリカとドイツから化石がみつかる　セイムリア</li>
+<li>5月 6日／史上最強の両生類!?　エリオプス</li>
+<li>5月 7日／“ブーメラン頭”の両生類　ディプロカウルス</li>
+<li>5月 8日／カエルとイモリの共通祖先　ゲロバトラクス</li>
+<li>5月 9日／水中に“帰った”爬虫類　メソサウルス</li>
+<li>5月10日／空を飛んだ爬虫類　コエルロサウラヴス</li>
+<li>5月11日／いかつい姿の爬虫類　スクトサウルス</li>
+<li>5月12日／歯がうずまきになっている！　ヘリコプリオン</li>
+<li>5月13日／“帆”をもった単弓類　ディメトロドン</li>
+<li>5月14日／帆にとげをもつ単弓類　エダフォサウルス</li>
+<li>5月15日／小さな頭にでっぷり胴体　コティロリンクス</li>
+<li>5月16日／ペルム紀後期の支配者　イノストランケヴィア</li>
+<li>5月17日／夫婦で仲よし!?　ディイクトドン</li>
+<li>5月18日／謎の巨大二枚貝　シカマイア</li>
+<li>5月19日／“最後”の三葉虫類　ケイロピゲ</li>
+<li>5月20日／史上最大　ペルム紀末大量絶滅事件</li>
+<li>5月21日／★コラム・化石に残りやすいもの残りにくいもの</li>
+
+</ul>
+<h3>三畳紀</h3>
+<ul class="toc">
+<li>5月22日／爬虫類が栄えた時代，中生代</li>
+<li>5月23日／陸上で脊椎動物が争った　三畳紀</li>
+<li>5月24日／大絶滅の生き残り　リストロサウルス</li>
+<li>5月25日／“最後”の大型単弓類　イスチグアラスティア</li>
+<li>5月26日／哺乳類に近い単弓類　キノドン類</li>
+<li>5月27日／私たち哺乳類の祖先？　モルガヌコドン</li>
+<li>5月28日／どう猛なクルロタルシ類　サウロスクス</li>
+<li>5月29日／帆をもつクルロタルシ類　アリゾナサウルス</li>
+<li>5月30日／骨のよろいで武装していた　デスマトスクス</li>
+<li>5月31日／世界中で化石がみつかる　スタゴノレピス</li>
+
+<li>6月 1日／走りが得意なクルロタルシ類　エフィギア</li>
+<li>6月 2日／10メートルもあった！　ファソラクス</li>
+<li>6月 3日／盲導犬より小さかった！　最初の恐竜類</li>
+<li>6月 4日／三畳紀に現れた　大型化した恐竜たち</li>
+<li>6月 5日／共食い恐竜!?　コエロフィシス</li>
+<li>6月 6日／★コラム・恐竜の仲間分け</li>
+<li>6月 7日／魚竜類の祖先？　カートリンカス</li>
+<li>6月 8日／子は頭から生まれた　チャオフサウルス</li>
+<li>6月 9日／南三陸町にいた魚竜類　ウタツサウルス</li>
+<li>6月10日／ザトウクジラより大きかった!　三畳紀の魚竜類</li>
+<li>6月11日／まんじゅうのような歯をもつ　プラコダス</li>
+<li>6月12日／羽ばたく翼をもった爬虫類　エウディモルフォドン</li>
+<li>6月13日／へんてこな甲羅のもち主　ヘノダスとキャモダス</li>
+<li>6月14日／芝刈り機のようなあごをもつ　アトポンデンタトゥス</li>
+<li>6月15日／腹だけに甲羅をもつカメ，オドントケリス</li>
+<li>6月16日／ごつごつした甲羅のリクガメ，プロガノケリス</li>
+<li>6月17日／長～い首の爬虫類　タニストロフェウス</li>
+<li>6月18日／サカナをわなでつまえていた!?　ゲロトラックス</li>
+<li>6月19日／最古のカエル，トリアドバトラクス</li>
+<li>6月20日／4回目のビッグ・ファイブ　三畳紀末大量絶滅事件</li>
+<li>6月21日／★コラム・大陸は移動する</li>
+
+</ul>
+<h3>ジュラ紀</h3>
+<ul class="toc">
+<li>6月22日／超大陸の分裂が進んだ　ジュラ紀</li>
+<li>6月23日／イカそっくりの大型頭足類　シチュアノベルス</li>
+<li>6月24日／尾から先に出産した魚竜類　ステノプテリギウス</li>
+<li>6月25日／旅をするウミユリ，セイロクリヌス</li>
+<li>6月26日／大きな眼をもつ魚竜　オフタルモサウルス</li>
+<li>6月27日／首の短いクビナガリュウ，リオプレウロドン</li>
+<li>6月28日／ワニの祖先　プロトスクス</li>
+<li>6月29日／海で暮らすワニ形類　メトリオリンクス</li>
+<li>6月30日／最初に跳ねたカエル，プロサリルス</li>
+
+<li>7月 1日／★コラム・「化石婦人」とよばれた　メアリー・アニング</li>
+<li>7月 2日／アジアにいた大型の肉食恐竜　シンラプトル</li>
+<li>7月 3日／巨体に長～い首をもつ　マメンキサウルス</li>
+<li>7月 4日／小さな体のティラノサウルス類　グアンロン</li>
+<li>7月 5日／赤い色のとさかをもつ恐竜　アンキオルニス</li>
+<li>7月 6日／小さな頭の翼竜類　ランフォリンクス</li>
+<li>7月 7日／大きな頭の翼竜類　プテロダクティルス</li>
+<li>7月 8日／翼竜類のミッシング・リンク　ダーウィノプテルス</li>
+<li>7月 9日／ビーバーに似た哺乳類　カストロカウダ</li>
+<li>7月10日／空を飛ぶ哺乳類　ヴォラティコテリウム</li>
+<li>7月11日／穴を掘る哺乳類　フルイタフォッソル</li>
+<li>7月12日／ヒトにつながる哺乳類の祖先　ジュラマイア</li>
+<li>7月13日／むちのような長い尾をもつ　ディプロドクス</li>
+<li>7月14日／ブロントサウルスとよばれていた　アパトサウルス</li>
+<li>7月15日／★コラム・19世紀のアメリカでおきた骨戦争</li>
+<li>7月16日／季節にあわせて旅をした　カマラサウルス</li>
+<li>7月17日／背中に骨の板が並ぶ　ステゴサウルス</li>
+<li>7月18日／背中の骨が変化していった　剣竜類の進化</li>
+<li>7月19日／ジュラ紀の肉食王　アロサウルス</li>
+<li>7月20日／アメリカとヨーロッパにいた　トルボサウルス</li>
+<li>7月21日／離れた場所で仲間がみつかる　ブラキオサウルス</li>
+<li>7月22日／小さな島の小さな竜脚類　エウロパサウルス</li>
+<li>7月23日／「始祖鳥」とよばれる獣脚類　アルカエオプテリクス</li>
+<li>7月24日／夜行性の獣脚類　ジュラベナトル</li>
+<li>7月25日／史上最大のサカナ？　リードシクティス</li>
+<li>7月26日／大きくてすぐれた眼をもつ　ドロカリス</li>
+<li>7月27日／皮膜の翼をもつ恐竜　イー</li>
+<li>7月28日／★コラム・どうやってできるの？　化石のでき方</li>
+
+</ul>
+<h3>白亜紀</h3>
+<ul class="toc">
+<li>7月29日／カンブリア紀以降，最も長い時代，白亜紀</li>
+<li>7月30日／最初にみつかった羽毛恐竜　シノサウロプテリクス</li>
+<li>7月31日／後ろあしにも翼をもつ羽毛恐竜　ミクロラプトル</li>
+
+<li>8月 1日／羽毛のあるティラノサウルス類　ユティラヌス</li>
+<li>8月 2日／木の上で暮らしていた哺乳類　エオマイア</li>
+<li>8月 3日／恐竜を食べていた哺乳類　レペノマムス</li>
+<li>8月 4日／原始的な被子植物　アルカエフルクトゥス</li>
+<li>8月 5日／★コラム・植物の歴史でも時代を分けられる</li>
+<li>8月 6日／身軽な恐るべき狩人　ヴェロキラプトル</li>
+<li>8月 7日／全身を武装した鎧竜　サイカニア</li>
+<li>8月 8日／誤解だった卵泥棒　オヴィラプトル</li>
+<li>8月 9日／最速で走るダチョウ恐竜　ガリミムス</li>
+<li>8月10日／とっても長い爪をもつ獣脚類　テリジノサウルス</li>
+<li>8月11日／バネのような形のアンモナイト，ユーボストリコセラス</li>
+<li>8月12日／その名も「日本の化石」　ニッポニテス</li>
+<li>8月13日／ソフトクリームのような殻　ディディモセラス</li>
+<li>8月14日／殻がS字を描くアンモナイト，プラヴィトセラス</li>
+<li>8月15日／白亜紀のダイオウイカ!?　ハボロテウティス</li>
+<li>8月16日／ユニークな形をした　白亜紀の厚歯二枚貝</li>
+<li>8月17日／地層の特定に役立つ巨大な貝　イノセラムス</li>
+<li>8月18日／★コラム・古生物が生きていた時代や環境はどうしてわかる？</li>
+<li>8月19日／サハリンでみつかった恐竜　ニッポノサウルス</li>
+<li>8月20日／日本でいちばん有名な古生物!?　フタバサウルス</li>
+<li>8月21日／史上最大級の翼竜　ケツァルコアトルス</li>
+<li>8月22日／太くて長い牙をもつ　クロノサウルス</li>
+<li>8月23日／最後の魚竜類　プラティプテリギウス</li>
+<li>8月24日／「スーパークロク」の異名をもつ　サルコスクス</li>
+<li>8月25日／背中に４列のうろこをもつワニ，ベルニサルティア</li>
+<li>8月26日／4本あしのヘビ，テトラポッドフィス</li>
+<li>8月27日／前あしを先に失った　2本あしのヘビたち</li>
+<li>8月28日／恐竜の巣を襲っていたヘビ，サナジェ</li>
+<li>8月29日／史上最大のカエル，ベルゼブフォ</li>
+<li>8月30日／大きなとさかをもつ　白亜紀の翼竜たち</li>
+<li>8月31日／史上最大のシーラカンス，マウソニア</li>
+
+<li>9月 1日／北アメリカ大陸を分断した　ウエスタン・インテリア・シー</li>
+<li>9月 2日／茎のないウミユリ類　ウインタクリヌス</li>
+<li>9月 3日／宝石になるアンモナイト，プラセンチセラス</li>
+<li>9月 4日／卵ではなく赤ちゃんを産んだ　ポリコティルス</li>
+<li>9月 5日／軽自動車より大きいカメ，アーケロン</li>
+<li>9月 6日／★コラム・何年前にいた古生物か　くわしく知る方法</li>
+<li>9月 7日／マーストリヒトの大怪獣　モササウルス</li>
+<li>9月 8日／モササウルス類の復元を変えた　プラテカルプス</li>
+<li>9月 9日／小さなモササウルス類　クリダステス</li>
+<li>9月10日／アンモナイトを食べていた？　プログナソドン</li>
+<li>9月11日／貝好きなモササウルス類　グロビデンス</li>
+<li>9月12日／日本にいたモササウルス類　フォスフォロサウルス</li>
+<li>9月13日／しゃくれたあごをもつサカナ，シファクチヌス</li>
+<li>9月14日／下あごが突き出たサカナ，サウロドン</li>
+<li>9月15日／最強にして最恐のサメ，クレトキシリナ</li>
+<li>9月16日／ノコギリのような歯をもつサメ，スクアリコラックス</li>
+<li>9月17日／海の上を遠くまで飛んだ　プテラノドンとニクトサウルス</li>
+<li>9月18日／翼を失った鳥　ヘスペロニス</li>
+<li>9月19日／水場で暮らした恐竜　スピノサウルス</li>
+<li>9月20日／ゾウ10頭分の体重　アルゼンチノサウルス</li>
+<li>9月21日／★コラム・化石の一部から，　どうして全身がわかるの？</li>
+<li>9月22日／超巨大な肉食恐竜　ギガノトサウルス</li>
+<li>9月23日／3本角とフリルをもつ恐竜　トリケラトプス</li>
+<li>9月24日／“ヘルメット頭”の恐竜　パキケファロサウルス</li>
+<li>9月25日／背中に“防弾チョッキ”!?　アンキロサウルス</li>
+<li>9月26日／ニックネームは「白亜紀のウシ」　エドモントサウルス</li>
+<li>9月27日／求愛のための翼があった　オルニトミムス</li>
+<li>9月28日／いちばん賢い恐竜!?　トロオドン</li>
+<li>9月29日／「恐竜ルネサンス」の立役者　デイノニクス</li>
+<li>9月30日／恐竜を食べていたワニ，デイノスクス</li>
+
+<li>10月 1日／ハート型の頭をした爬虫類　チャンプソサウルス</li>
+<li>10月 2日／祖先はジュラ紀の王者だった　シアッツ</li>
+<li>10月 3日／賢くて耳もよかったティラノサウルス類　ティムルレンギア</li>
+<li>10月 4日／アメリカに現れたティラノサウルス類　リトロナクス</li>
+<li>10月 5日／群れで暮らすティラノサウルス類　アルバートサウルス</li>
+<li>10月 6日／最強の肉食恐竜　ティラノサウルス</li>
+<li>10月 7日／★コラム・世界共通の生物名，「種名」って何？</li>
+<li>10月 8日／アジアの恐竜王　タルボサウルス</li>
+<li>10月 9日／ピノキオ・レックスとよばれる　キアンゾウサウルス</li>
+<li>10月10日／腕の長い“ダチョウ恐竜”　デイノケイルス</li>
+<li>10月11日／最後のビッグ・ファイブ　白亜紀末の大量絶滅事件</li>
+
+</ul>
+<h3>古第三紀</h3>
+<ul class="toc">
+<li>10月12日／哺乳類が“主役”になった時代　新生代</li>
+<li>10月13日／大森林の時代から草原の時代へ　古第三紀</li>
+<li>10月14日／大量絶滅事件を乗り越えた　コリストデラ類</li>
+<li>10月15日／史上最大のヘビ，ティタノボア</li>
+<li>10月16日／頭の大きな飛べない鳥　ガストルニス</li>
+<li>10月17日／最古のペンギン　ワイマヌ</li>
+<li>10月18日／大きな口の肉食哺乳類　アンドリュウサルクス</li>
+<li>10月19日／見た目はまるで巨大なイヌ，メジストテリウム</li>
+<li>10月20日／木の上で暮らしていた霊長類　アーキセプス</li>
+<li>10月21日／もともと陸で暮らしていた　クジラ類の祖先</li>
+<li>10月22日／水中で暮らし始めたクジラ類　アンブロケトゥス</li>
+<li>10月23日／「王様」の名前をもつクジラ，バシロサウルス</li>
+<li>10月24日／あしのある“イルカ”　ドルドン</li>
+<li>10月25日／羽ばたいて飛ぶ哺乳類　最古のコウモリたち</li>
+<li>10月26日／イヌとネコの祖先　ミアキス</li>
+<li>10月27日／ネコに似たネコではない哺乳類　ホプロフォネウス</li>
+<li>10月28日／最古のイヌ，ヘスペロキオン</li>
+<li>10月29日／指がたくさんあるウマ類　ヒラコテリウム</li>
+<li>10月30日／だんだん大きくなっていった　ウマ類の進化</li>
+<li>10月31日／カバのような姿をしていた　ゾウの祖先</li>
+
+<li>11月 1日／鼻が長くなりはじめた？　フィオミア</li>
+<li>11月 2日／暑さに強いペンギン　ペルディプテス</li>
+<li>11月 3日／ヒトより大きい!?　大型のペンギン</li>
+<li>11月 4日／「イーダ」とよばれる霊長類　ダーウィニウス</li>
+<li>11月 5日／★コラム・「化石鉱脈」って何？</li>
+<li>11月 6日／ニホンザルとヒトの共通の祖先　エジプトピテクス</li>
+<li>11月 7日／地獄から来たブタ，アルカエオテリウム</li>
+<li>11月 8日／ウマのような姿のサイ，ヒラコドン</li>
+<li>11月 9日／史上最大級の哺乳類　パラケラテリウム</li>
+<li>11月10日／つま先で歩き始めたイヌ，　レプトキオン</li>
+<li>11月11日／日本にいたペンギンモドキ，ホッカイドルニス</li>
+<li>11月12日／カバみたいな哺乳類　アショロア</li>
+<li>11月13日／★コラム・さぁ，化石を探しに出かけよう！</li>
+
+</ul>
+<h3>新第三紀</h3>
+<ul class="toc">
+<li>11月14日／現在とほとんど同じ姿　新第三紀</li>
+<li>11月15日／巨大な頭をもつ恐ろしい鳥　フォルスラコス</li>
+<li>11月16日／歯のような突起をもつ海鳥　オステオドントルニス</li>
+<li>11月17日／絶滅した巨大なサメ，メガロドン</li>
+<li>11月18日／「月のおさがり」を残す巻貝　ビカリア</li>
+<li>11月19日／泳げないホタテ　タカハシホタテ</li>
+<li>11月20日／クマのようなライオン!?　バルボロフェリス</li>
+<li>11月21日／長い犬歯をもつネコ類　サーベルタイガー</li>
+<li>11月22日／肉を切り裂き，骨をかみ砕く　ボロファグス</li>
+<li>11月23日／ヒグマ並みの体格をしたイヌ，アンフィキオン</li>
+<li>11月24日／現在のウマにかなり近づいた　新第三紀のウマ類</li>
+<li>11月25日／シャベルのような歯をもつ　プラティベロドン</li>
+<li>11月26日／長い首と短い首　新第三紀のキリン類</li>
+<li>11月27日／★コラム・そもそも「進化」って何だろう？</li>
+<li>11月28日／長いかぎ爪をもつ哺乳類　カリコテリウム</li>
+<li>11月29日／ウマに似ているけどウマじゃない　トアテリウム</li>
+<li>11月30日／有袋類の“サーベルタイガー”　ティラコスミルス</li>
+
+<li>12月 1日／千葉にいたオオグソクムシ　バチノムス</li>
+<li>12月 2日／泳ぎが得意だった？　デスモスチルス</li>
+<li>12月 3日／アシカやアザラシたちの祖先　ペウユラ</li>
+<li>12月 4日／新第三紀にたくさんいた　サーベルタイガーたち</li>
+<li>12月 5日／サーベルタイガーの“代表選手”　スミロドン</li>
+<li>12月 6日／超大型なネズミ，ジョセフォアルティガシア</li>
+<li>12月 7日／尾を失った，類人猿の祖先　プロコンスル</li>
+<li>12月 8日／およそ700万年前に現れた　初期の人類</li>
+<li>12月 9日／ずっとヒトらしくなった　アウストラロピテクス</li>
+<li>12月10日／★コラム・古生物学と考古学はどうちがうの？</li>
+
+</ul>
+<h3>第四紀</h3>
+<ul class="toc">
+<li>12月11日／氷期と間氷期がくりかえす　第四紀</li>
+<li>12月12日／大阪にいた巨大なワニ，マチカネワニ</li>
+<li>12月13日／たてがみのないライオン，ホラアナライオン</li>
+<li>12月14日／第四紀で最も恐ろしい動物　ホラアナグマ</li>
+<li>12月15日／オーストラリア最大の肉食動物　ティラコレオ</li>
+<li>12月16日／オーストラリアで繁栄した　巨大な有袋類たち</li>
+<li>12月17日／ジャンプができないカンガルー，プロコプトドン</li>
+<li>12月18日／寒さ対策ばっちり！　ケナガマンモス</li>
+<li>12月19日／東京にもいた　ナウマンゾウ</li>
+<li>12月20日／★コラム・　明治の日本にやってきた　ナウマン博士</li>
+<li>12月21日／ヨーロッパと日本にいた　オオツノジカ</li>
+<li>12月22日／北アメリカ大陸最大の肉食動物　アルクトドゥス</li>
+<li>12月23日／「恐ろしいオオカミ」とよばれる　ダイアウルフ</li>
+<li>12月24日／北アメリカ大陸最大の哺乳類　コロンビアマンモス</li>
+<li>12月25日／木登りできないナマケモノ，メガテリウム</li>
+<li>12月26日／丸くなれない巨大なアルマジロ　グリプトドン</li>
+<li>12月27日／石器を使った人類　ホモ・ハビリス</li>
+<li>12月28日／体格は私たちにそっくり　ホモ・エレクトゥス</li>
+<li>12月29日／私たちと共存した人類　ホモ・ネアンデルターレンシス</li>
+<li>12月30日／道具を発明し，世界中で暮らす　ホモ・サピエンス</li>
+<li>12月31日／１万年前におきた　大型哺乳類の大絶滅</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9163-8","path":"\/dp\/ebook\/2017\/978-4-7741-9163-8","targetId":"978-4-7741-9163-8","parent":"\/dp\/genre\/%E7%90%86%E5%B7%A5%E3%83%BB%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

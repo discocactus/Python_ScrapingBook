@@ -1,0 +1,4 @@
+SELECT * WHERE {
+    ?s rdf:type dbpedia-owl:Museum .
+    ?s prop-ja:所在地 ?address .
+} ORDER BY ?s

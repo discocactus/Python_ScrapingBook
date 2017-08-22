@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja-JP">
+  <title>Gihyo Digital Publishing - 技術評論社</title>
+  <id>http://gihyo.jp/dp/catalogs.opds</id>
+  <link rel="start" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="self" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <updated>2017-08-18T00:02:00+09:00</updated>
+  <author>
+    <name>株式会社技術評論社</name>
+    <uri>https://gihyo.jp/dp</uri>
+  </author>
+  <entry>
+    <title>既刊</title>
+    <id>http://gihyo.jp/dp/all.opds</id>
+    <updated>2017-08-18T00:02:00+09:00</updated>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Gihyo Digital Publishingの既刊一覧</p></div></content>
+    <author><name>株式会社技術評論社</name></author>
+    <link rel="subsection" href="http://gihyo.jp/dp/all.opds" type="application/atom+xml;profile=opds-catalog;kind=acquisition" />
+  </entry>
+  <entry>
+    <title>新刊</title>
+    <id>http://gihyo.jp/dp/new.opds</id>
+    <updated>2017-08-18T00:02:00+09:00</updated>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Gihyo Digital Publishingの最新刊（直近10冊）</p></div></content>
+    <author><name>株式会社技術評論社</name></author>
+    <link rel="http://opds-spec.org/sort/new" href="http://gihyo.jp/dp/new.opds" type="application/atom+xml;profile=opds-catalog;kind=acquisition" />
+  </entry>
+</feed>

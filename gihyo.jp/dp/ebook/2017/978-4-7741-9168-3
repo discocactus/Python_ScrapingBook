@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>イメージでつかむ機械学習入門 ～豊富なグラフ，シンプルな数学，Rで理解する～ | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="機械学習は，人工知能の実装を支える基盤技術として注目されています。人工知能の基盤と聞くと，難解な数学に対する素養が必要だと感じるかもしれませんが，その基礎は高校数学と大学初学年級の一部の数学が理解できていれば十分にマスターできます。本書は，理系出身ではない方，プログラムは多少作れるけれども数学はちょっと…という方を対象に，豊富なグラフとシンプルな数学により各手法のイメージをつかみながら機械学習の基礎を学んでいくことができます。ソフトはRを使っています。"/>
+  <meta name="keywords" content="横内大介,青木義充電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="イメージでつかむ機械学習入門 ～豊富なグラフ，シンプルな数学，Rで理解する～ | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="機械学習は，人工知能の実装を支える基盤技術として注目されています。人工知能の基盤と聞くと，難解な数学に対する素養が必要だと感じるかもしれませんが，その基礎は高校数学と大学初学年級の一部の数学が理解できていれば十分にマスターできます。本書は，理系出身ではない方，プログラムは多少作れるけれども数学はちょっと…という方を対象に，豊富なグラフとシンプルな数学により各手法のイメージをつかみながら機械学習の基礎を学んでいくことができます。ソフトはRを使っています。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9168-3"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9168-3.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E7%90%86%E5%B7%A5%E3%83%BB%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">イメージでつかむ機械学習入門<br/><span class="sub">～豊富なグラフ，<wbr/>シンプルな数学，<wbr/>R<wbr/>で理解する～</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9168-3.jpg" alt="イメージでつかむ機械学習入門 ～豊富なグラフ，シンプルな数学，Rで理解する～"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">横内大介，<wbr/>青木義充　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-07-26">2017年7月26日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-07-26">2017年7月26日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9062-4" target="_blank">2017年7月26日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">2,340円 <a id="pid401805" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">192</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9168-3" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9168-3" data-text="イメージでつかむ機械学習入門 ～豊富なグラフ，シンプルな数学，Rで理解する～ #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9168-3" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9168-3"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9168-3" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>機械学習は，<wbr/>人工知能の実装を支える基盤技術として注目されています。人工知能の基盤と聞くと，<wbr/>難解な数学に対する素養が必要だと感じるかもしれませんが，<wbr/>その基礎は高校数学と大学初学年級の一部の数学が理解できていれば十分にマスターできます。本書は，<wbr/>理系出身ではない方，<wbr/>プログラムは多少作れるけれども数学はちょっと…という方を対象に，<wbr/>豊富なグラフとシンプルな数学により各手法のイメージをつかみながら機械学習の基礎を学んでいくことができます。ソフトはRを使っています。</p><h3>こんな方におすすめ</h3>
+<ul><li>機械学習の初心者。機械学習の手法の違いを知りたい人</li><li>数学をやってこなかったけれども機械学習に携わる必要があるエンジニア</li></ul>
+<aside class="author"><h3>横内大介（よこうちだいすけ）</h3><p>一橋大学大学院国際企業戦略研究科准教授，<wbr/>博士（工学）（慶應義塾大学）。1975年生まれ。<br />
+慶應義塾大学理工学部数理科学科卒業，<wbr/>慶應義塾大学大学院基礎理工学専攻数理科学専修修了，<wbr/>慶應義塾大学理工学部数理科学科助手を経て，<wbr/>現在に至る。データサイエンス，<wbr/>計量ファイナンス，<wbr/>統計的機械学習に関連する講義やゼミを担当。複数の民間企業の技術顧問に就任し，<wbr/>データ分析やAI開発の監修も行っている。本書では主に企画，<wbr/>原案の作成を担当。</p>
+</aside><aside class="author"><h3>青木義充（あおきよしみつ）</h3><p>一橋大学大学院国際企業戦略研究科非常勤講師，<wbr/>博士（学術）（総合研究大学院大学）。1974年生まれ。<br />
+慶應義塾大学理工学部数理科学科卒業，<wbr/>慶應義塾大学大学院後期博士課程基礎理工学専攻単位取得済退学，<wbr/>一橋大学大学院国際企業戦略研究科助手を経たのち，<wbr/>総合研究大学院大学複合科学研究科統計科学専攻修了し，<wbr/>現在に至る。統計に必要な線形代数，<wbr/>微分積分，<wbr/>確率論などの基礎に加えて時系列データ分析，<wbr/>ベイズ統計学の講義を受け持つ。本書では主に執筆を担当。</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35051">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><ul class="toc">
+<li>まえがき</li>
+</ul>
+</ul>
+<h3>第1章　はじめに</h3>
+<ul class="toc">
+<li>1.1　機械学習とは</li>
+<li>1.2　Rを用いた実習</li>
+</ul>
+<h3>第2章　回帰</h3>
+<ul class="toc">
+<li>2.1　線形回帰モデル</li>
+<li>2.2　線形回帰モデルの係数推定<ul class="toc">
+	<li>2.2.1　最小二乗法</li>
+	<li>2.2.2　最尤法</li></ul></li>
+<li>2.3　残差によるモデルの検討</li>
+<li>コラム：極値と偏微分</li>
+<li>2.4　モデルの説明力?決定係数と相関係数?</li>
+<li>コラム：非線形回帰モデルのフィッティング </li>
+<li>2.5　回帰モデルの限界?分類への応用?</li>
+</ul>
+<h3>第3章　境界による分類</h3>
+<ul class="toc">
+<li>3.1　線形判別分析<ul class="toc">
+	<li>3.1.1　平面を分割する</li>
+	<li>3.1.2　判別分析を実現する仕組み</li>
+	<li>3.1.3　Rによる線形判別分析</li></ul></li>
+<li>3.2　サポートベクターマシン<ul class="toc">
+	<li>3.2.1　完全に分類できる問題について</li></ul></li>
+<li>3.2.2　線形分離不可能な問題について</li>
+<li>3.2.3　カーネル関数の利用</li>
+<li>3.2.4　Rによるサポートベクターマシン</li>
+</ul>
+<h3>第4章　確率による分類</h3>
+<ul class="toc">
+<li>4.1　ロジスティック回帰モデル</li>
+<li>4.2　ロジスティック回帰モデルの当てはめ</li>
+<li>4.3　ロジスティック回帰モデルにおけるパラメタ推定</li>
+</ul>
+<h3>第5章　ニューラルネットワークによる分類</h3>
+<ul class="toc">
+<li>5.1　フィードフォワードニューラルネットワーク</li>
+<li>5.2　3層構造のフィードフォワードニューラルネットワーク</li>
+<li>5.3　重みの推定方法?誤差逆伝播法?</li>
+<li>5.4　Rによるニューラルネットワークの推定</li>
+<li>5.5　ディープラーニングへの入口</li>
+<li>付録：神経細胞（ニューロン）とニューラルネットワーク</li>
+</ul>
+<h3>第6章　【実践編】説明変量の追加と予測精度の評価</h3>
+<ul class="toc">
+<li>6.1　説明変量を増やす<ul class="toc">
+	<li>6.1.1　分類問題の再設定</li>
+	<li>6.1.2　各分類法の適用</li></ul></li>
+<li>6.2　予測精度の評価<ul class="toc">
+	<li>6.2.1　インサンプルとアウトサンプル</li>
+	<li>6.2.2　データの意味を考えた予測の評価法</li></ul></li>
+<li>6.3　まとめ</li>
+</ul>
+<ul class="toc">
+<li>参考文献</li>
+<li>索引</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書で使用する演習用のRDATAファイルがダウンロードできます。<br />
+圧縮ファイルをダウンロードしていただき，<wbr/>適宜解凍してご利用ください。<br />
+ダウンロードデータの詳細はP.10「1.2　Rを用いた実習」をご参照ください。<br />
+また，<wbr/>P.105「4.2　ロジスティック回帰モデルの当てはめ」で定義する関数sigmoid をあらかじめ同梱しています。</p>
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2017/978-4-7741-9062-4/download/Samples.zip">Samples.zip</a></dd>
+</dl>
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9168-3","path":"\/dp\/ebook\/2017\/978-4-7741-9168-3","targetId":"978-4-7741-9168-3","parent":"\/dp\/genre\/%E7%90%86%E5%B7%A5%E3%83%BB%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

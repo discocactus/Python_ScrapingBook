@@ -1,0 +1,457 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する">すべての商品</a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"><li class="title">商品ジャンルを選択</li><li class="selected"><a href="/dp">すべての商品</a></li><li><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3">パソコン</a></li><li><a href="/dp/genre/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88">スマートフォン・タブレット</a></li><li><a href="/dp/genre/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%BB%E7%B4%A0%E6%9D%90%E9%9B%86">デザイン・素材集</a></li><li><a href="/dp/genre/Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C">Webサイト制作</a></li><li><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA">プログラミング・システム開発</a></li><li><a href="/dp/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%BBUNIX%E3%83%BB%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9">ネットワーク・UNIX・データベース</a></li><li><a href="/dp/genre/%E8%B3%87%E6%A0%BC%E8%A9%A6%E9%A8%93%EF%BC%88IT%EF%BC%89">資格試験（IT）</a></li><li><a href="/dp/genre/%E8%B3%87%E6%A0%BC%E8%A9%A6%E9%A8%93%EF%BC%88%E4%B8%80%E8%88%AC%EF%BC%89%E3%83%BB%E5%A4%A7%E5%AD%A6%E5%8F%97%E9%A8%93">資格試験（一般）・大学受験</a></li><li><a href="/dp/genre/%E8%B6%A3%E5%91%B3%E3%83%BB%E5%AE%9F%E7%94%A8%E3%83%BB%E3%83%87%E3%82%B8%E3%82%AB%E3%83%A1">趣味・実用・デジカメ</a></li><li><a href="/dp/genre/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%BB%E3%83%9E%E3%83%8D%E3%83%BC">ビジネス・マネー</a></li><li><a href="/dp/genre/%E7%90%86%E5%B7%A5%E3%83%BB%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9">理工・サイエンス</a></li></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">          <ul>
+            <li><span class="prev">―</span></li>
+            <li class="paging-number">1</li>
+            <li><a href="/dp?start=30" title="サンプルページのため利用できません" class="next">次</a></li>
+          </ul>
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book"><li id="bannerTopAd">
+  <div id="topAdPrev"><a href="#adPrev" title="サンプルページのため利用できません">前</a></div>
+  <div id="topAdNext"><a href="#adNext" title="サンプルページのため利用できません">次</a></div>
+  <ul id="topAdNum"></ul>
+</li>
+<li class="subscription"><a href="/dp/subscription" title="サンプルページのため利用できません">
+  <p class="title"><span class="series">Software Design・<wbr>WEB+DB PRESS</span>電子版定期購読のお申し込み</p>
+  <img src="/assets/images/dummy.png" data-image="/assets/images/gdp/subscription/subsc-cover.png,/assets/images/gdp/subscription/subsc-cover@2x.png" width="236" height="138" alt="cover" style="max-width:none;max-height:none;position:absolute;right:0;bottom:-10px;border:none">
+  <ul class="format"><li class="pdf">PDF</li></ul>
+</a></li>        <li class="new" id="978-4-7741-8336-7"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8336-7">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="141" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8336-7.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8336-7.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">これからはじめるプログラミング 作って覚える基礎の基礎</p>
+          <p itemprop="author" class="author">谷尻かおり　著，<wbr/>谷尻豊寿　監修</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li class="notice"><time datetime="2016-7-23" itemprop="datePublished" class="published">2016年7月23日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8337-4"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8337-4">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="141" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8337-4.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8337-4.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">情報処理技術者試験</span> 平成<wbr/>28<wbr/>年度<wbr/>【秋期】<wbr/>情報セキュリティマネジメント パーフェクトラーニング過去問題集</p>
+          <p itemprop="author" class="author">庄司勝哉，<wbr/>吉川允樹　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,480</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li class="notice"><time datetime="2016-7-23" itemprop="datePublished" class="published">2016年7月23日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8338-1"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8338-1">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="144" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8338-1.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8338-1.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">大人の自由時間<wbr/>（大人の自由時間<wbr/>mini）</span> 水泳のきれいなカラダをつくる<br/><span class="sub">～スリムな逆三角形になる！ドライランドトレーニング</span></p>
+          <p itemprop="author" class="author">髙橋雄介　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li class="notice"><time datetime="2016-7-23" itemprop="datePublished" class="published">2016年7月23日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8346-6"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8346-6">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="133" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8346-6.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8346-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">30<wbr/>レッスン</span> 30<wbr/>レッスンで絶対合格！ Microsoft Office Specialist PowerPoint 2013 テキスト＋問題集</p>
+          <p itemprop="author" class="author">本郷PC塾　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li class="notice"><time datetime="2016-7-22" itemprop="datePublished" class="published">2016年7月22日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8334-3"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8334-3">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="147" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8334-3.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8334-3.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">ゼロからはじめる</span> ゼロからはじめる<br/>海外旅行でスマホ活用 スマートガイド</p>
+          <p itemprop="author" class="author">山谷剛史，<wbr/>田口和裕，<wbr/>タトラエディット　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,380</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li class="notice"><time datetime="2016-7-22" itemprop="datePublished" class="published">2016年7月22日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8335-0"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8335-0">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="157" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8335-0.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8335-0.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">今すぐ使えるかんたん<wbr/>mini</span> 今すぐ使えるかんたんmini<br/>CD&amp;DVD 作成超入門<br/><span class="sub">［Windows 10<wbr/>対応版］</span></p>
+          <p itemprop="author" class="author">オンサイト　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,080</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li class="notice"><time datetime="2016-7-22" itemprop="datePublished" class="published">2016年7月22日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8325-1"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8325-1">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="133" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8325-1.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8325-1.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">大きな字でわかりやすい</span> 大きな字でわかりやすい<br/>ワード<wbr/>2016<wbr/>入門</p>
+          <p itemprop="author" class="author">AYURA　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-20" itemprop="datePublished" class="published">2016年7月20日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8322-0"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8322-0">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="133" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8322-0.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8322-0.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">大きな字でわかりやすい</span> 大きな字でわかりやすい<br/>エクセル<wbr/>2016 入門</p>
+          <p itemprop="author" class="author">AYURA　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-20" itemprop="datePublished" class="published">2016年7月20日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8323-7"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8323-7">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="128" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8323-7.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8323-7.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">今すぐ使えるかんたん</span> 今すぐ使えるかんたん<br/>ぜったいデキます！ デジカメ写真活用術<br/><span class="sub">［Windows 10<wbr/>対応版］</span></p>
+          <p itemprop="author" class="author">井上香緒里　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,480</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-16" itemprop="datePublished" class="published">2016年7月16日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8119-6"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8119-6">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="141" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8119-6.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8119-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">Software Design 2016<wbr/>年<wbr/>8<wbr/>月号</p>
+          <p itemprop="author" class="author"></p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,318</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-16" itemprop="datePublished" class="published">2016年7月16日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8333-6"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8333-6">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="126" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8333-6.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8333-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">無料ではじめる<wbr/>Blender CG<wbr/>イラストテクニック<br/><span class="sub">～<wbr/>3DCG<wbr/>の考え方としくみがしっかりわかる</span></p>
+          <p itemprop="author" class="author">大澤龍一　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,680</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-16" itemprop="datePublished" class="published">2016年7月16日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-7741-8324-4"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8324-4">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="127" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8324-4.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8324-4.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">小さなお店＆<wbr/>会社の WordPress<wbr/>超入門<br/><span class="sub">―初めてでも安心！思いどおりのホームページを作ろう！</span></p>
+          <p itemprop="author" class="author">星野邦敏，<wbr/>大胡由紀，<wbr/>吉田裕介，<wbr/>羽野めぐみ，<wbr/>リブロワークス　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-15" itemprop="datePublished" class="published">2016年7月15日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8302-2"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8302-2">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="142" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8302-2.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8302-2.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">WEB+DB PRESS plus</span> Atom<wbr/>実践入門<br/><span class="sub">──進化し続けるハッカブルなエディタ</span></p>
+          <p itemprop="author" class="author">大竹智也　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,680</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-14" itemprop="datePublished" class="published">2016年7月14日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8301-5"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8301-5">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="142" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8301-5.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8301-5.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">アウトライナー実践入門<br/><span class="sub">～<wbr/>「書く・<wbr/>考える・<wbr/>生活する」<wbr/>創造的アウトライン・<wbr/>プロセッシングの技術〜</span></p>
+          <p itemprop="author" class="author">Tak.　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-09" itemprop="datePublished" class="published">2016年7月9日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8297-1"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8297-1">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="152" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8297-1.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8297-1.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">ゼロからはじめる</span> ゼロからはじめる<br/>ドコモ<wbr/>Galaxy S7 edge SC-02H スマートガイド</p>
+          <p itemprop="author" class="author">技術評論社編集部　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,380</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-08" itemprop="datePublished" class="published">2016年7月8日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8255-9"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8255-9">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="141" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8255-9.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8255-9.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">Excel<wbr/>のムカムカ！が一瞬でなくなる使い方<br/><span class="sub">～表計算・<wbr/>資料作成のストレスを最小限に！</span></p>
+          <p itemprop="author" class="author">四禮静子　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,480</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-08" itemprop="datePublished" class="published">2016年7月8日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8258-2"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8258-2">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="141" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8258-2.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8258-2.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">Word<wbr/>のムカムカ！が一瞬でなくなる使い方<br/><span class="sub">～文章・<wbr/>資料作成のストレスを最小限に！</span></p>
+          <p itemprop="author" class="author">四禮静子　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,480</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-08" itemprop="datePublished" class="published">2016年7月8日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8319-0"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8319-0">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="142" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8319-0.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8319-0.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">生物ミステリー<wbr/>（生物ミステリー プロ）</span> そもそも島に進化あり</p>
+          <p itemprop="author" class="author">川上和人　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,880</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-08" itemprop="datePublished" class="published">2016年7月8日</time></li>
+            <li><time datetime="2016-7-08" itemprop="dateModified" class="modified">2016年7月8日</time></li>
+          </ul>
+        </a></li>        <li id="978-4-7741-8318-3"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8318-3">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="143" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8318-3.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8318-3.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">大人の自由時間<wbr/>（大人の自由時間<wbr/>mini）</span> 山歩きスタートブック<br/><span class="sub">～道具と歩き方がわかる，<wbr/>行きたいコースが見つかる</span></p>
+          <p itemprop="author" class="author">西野淑子　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-06" itemprop="datePublished" class="published">2016年7月6日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8317-6"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8317-6">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="142" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8317-6.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8317-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">平成<wbr/>28-29<wbr/>年度 基本情報技術者 試験によくでる問題集<br/><span class="sub">【午後】</span></p>
+          <p itemprop="author" class="author">角谷一成，<wbr/>イエローテールコンピュータ　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,880</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-05" itemprop="datePublished" class="published">2016年7月5日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8300-8"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8300-8">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="142" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8300-8.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8300-8.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">大人の自由時間<wbr/>（大人の自由時間<wbr/>mini）</span> あきらめないランニング<br/><span class="sub">～楽しいランのはじめかた，<wbr/>続けかた</span></p>
+          <p itemprop="author" class="author">白方健一，<wbr/>ナイスク　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-7-01" itemprop="datePublished" class="published">2016年7月1日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8299-5"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8299-5">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="126" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8299-5.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8299-5.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">Excel<wbr/>＆<wbr/>Access<wbr/>連携 実践ガイド<br/><span class="sub">～仕事の現場で即使える</span></p>
+          <p itemprop="author" class="author">今村ゆうこ　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,680</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-6-29" itemprop="datePublished" class="published">2016年6月29日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8296-4"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8296-4">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="142" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8296-4.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8296-4.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">大人の自由時間<wbr/>（大人の自由時間<wbr/>mini）</span> もう一度バイクに乗ろう！<br/><span class="sub">～羨望されるオトナのライダーになりたい人に</span></p>
+          <p itemprop="author" class="author">西尾淳　著，<wbr/>WINDY Co.　編</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-6-28" itemprop="datePublished" class="published">2016年6月28日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8292-6"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8292-6">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="142" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8292-6.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8292-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">Slack<wbr/>入門<br/><span class="sub">[ChatOpsによるチーム開発の効率化]</span></p>
+          <p itemprop="author" class="author">松下雅和，<wbr/>小島泰洋，<wbr/>長瀬敦史，<wbr/>坂本卓巳　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-6-28" itemprop="datePublished" class="published">2016年6月28日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8273-5"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8273-5">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="127" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8273-5.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8273-5.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">パソコン入門<wbr/>5<wbr/>冊分！<br/><span class="sub">＜<wbr/>Windows 10<wbr/>入門＋<wbr/>Windows 10<wbr/>活用＋インターネット＆<wbr/>メール＋<wbr/>Word<wbr/>＋<wbr/>Excel<wbr/>＞</span></p>
+          <p itemprop="author" class="author">飯島弘文　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,780</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-6-27" itemprop="datePublished" class="published">2016年6月27日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8295-7"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8295-7">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="110" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8295-7.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8295-7.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">人気ハンドメイド作家になりたい人が読む本</p>
+          <p itemprop="author" class="author">ARENSKI　著，<wbr/>小泉七美　監修</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,480</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-6-27" itemprop="datePublished" class="published">2016年6月27日</time></li>
+            <li><time datetime="2016-6-30" itemprop="dateModified" class="modified">2016年6月30日</time></li>
+          </ul>
+        </a></li>        <li id="978-4-7741-8288-9"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8288-9">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="142" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8288-9.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8288-9.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">今すぐ使えるかんたん<wbr/>Ex</span> 今すぐ使えるかんたんEx<br/>ヤフオク！ 本気で儲ける！ プロ技セレクション</p>
+          <p itemprop="author" class="author">梅田潤　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,780</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-6-25" itemprop="datePublished" class="published">2016年6月25日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8289-6"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8289-6">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="157" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8289-6.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8289-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">今すぐ使えるかんたん<wbr/>mini</span> 今すぐ使えるかんたんmini<br/>Access 2016 基本技</p>
+          <p itemprop="author" class="author">技術評論社編集部，<wbr/>AYURA　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-6-25" itemprop="datePublished" class="published">2016年6月25日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8290-2"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8290-2">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="147" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8290-2.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8290-2.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">ゼロからはじめる</span> ゼロからはじめる<br/>OneNote 2016<wbr/>／<wbr/>2013 スマートガイド</p>
+          <p itemprop="author" class="author">技術評論社編集部，<wbr/>マイカ　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-6-25" itemprop="datePublished" class="published">2016年6月25日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-7741-8291-9"><a itemprop="url" href="/dp/ebook/2016/978-4-7741-8291-9">
+          <img itemprop="image" src="/assets/images/dummy.png" width="100" height="147" data-image="/assets/images/gdp/2016/thumb/TH100_978-4-7741-8291-9.jpg,/assets/images/gdp/2016/thumb/TH200_978-4-7741-8291-9.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">ゼロからはじめる</span> ゼロからはじめる<br/>au Galaxy S7 edge SCV33 スマートガイド</p>
+          <p itemprop="author" class="author">技術評論社編集部　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,380</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2016-6-25" itemprop="datePublished" class="published">2016年6月25日</time></li>
+            
+          </ul>
+        </a></li>
+      </ul>
+      <nav id="pagingBottom">        <ul>
+          <li><span class="prev">―</span></li>
+          <li class="paging-number">1 - 30 / 1395</li>
+          <li><a href="/dp?start=30" title="サンプルページのため利用できません" class="next">次</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper"></div>
+      <div id="navInfor"><p class="page">1 - 30 / 1395</p></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>今すぐ使えるかんたん FileMaker Pro［FileMaker Pro16/15/14対応版］ | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="わかりやすい操作で人気のデータベースソフト・FileMaker Proの入門者向け解説書です。データベース開発の工程に加えて，サンプルをもとにデータベースの操作方法を解説しているため，「データベースを開発する人」と「開発ではなく，既存のデータベースを操作する人」のどちらのニーズでも活用できます。パソコンのほか，iPad/iPhoneのモバイル環境でのデータベース活用についても解説します。最新版のFileMaker Pro 16のほか，Pro 15/14のユーザーにも利用していただけます。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="今すぐ使えるかんたん FileMaker Pro［FileMaker Pro16/15/14対応版］ | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="わかりやすい操作で人気のデータベースソフト・FileMaker Proの入門者向け解説書です。データベース開発の工程に加えて，サンプルをもとにデータベースの操作方法を解説しているため，「データベースを開発する人」と「開発ではなく，既存のデータベースを操作する人」のどちらのニーズでも活用できます。パソコンのほか，iPad/iPhoneのモバイル環境でのデータベース活用についても解説します。最新版のFileMaker Pro 16のほか，Pro 15/14のユーザーにも利用していただけます。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9196-9"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9196-9.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E4%BB%8A%E3%81%99%E3%81%90%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93">今すぐ使えるかんたん</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">今すぐ使えるかんたん<br/>FileMaker Pro<br/><span class="sub">［FileMaker Pro16/<wbr/>15/<wbr/>14<wbr/>対応版］</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9196-9.jpg" alt="今すぐ使えるかんたん FileMaker Pro［FileMaker Pro16/15/14対応版］"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">若林孝，<wbr/>深澤真吾　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-08-11">2017年8月11日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-08-11">2017年8月11日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9059-4" target="_blank">2017年8月8日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">2,340円 <a id="pid401818" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">288</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9196-9" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9196-9" data-text="今すぐ使えるかんたん FileMaker Pro［FileMaker Pro16/15/14対応版］ #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9196-9" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9196-9"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9196-9" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>わかりやすい操作で人気のデータベースソフト・<wbr/>FileMaker Proの入門者向け解説書です。データベース開発の工程に加えて，<wbr/>サンプルをもとにデータベースの操作方法を解説しているため，<wbr/>「データベースを開発する人」と「開発ではなく，<wbr/>既存のデータベースを操作する人」のどちらのニーズでも活用できます。パソコンのほか，<wbr/>iPad/iPhoneのモバイル環境でのデータベース活用についても解説します。最新版のFileMaker Pro 16のほか，<wbr/>Pro 15/14のユーザーにも利用していただけます。</p><h3>こんな方におすすめ</h3>
+<ul><li>仕事でFileMaker Proのデータベースを使う人</li><li>FileMaker Proでデータベースを構築したい人</li></ul>
+<dl class="profile sectionBlock02">
+
+
+
+</dl><aside class="author"><h3>若林孝（わかばやしたかし）</h3><p>第1&#12316;7章担当<br />
+寿商会 代表取締役社長。社長／<wbr/>営業／<wbr/>開発のマルチプレーヤー。FileMaker認定デベロッパ10-15。FMTech認定トレーナー。AppleやFileMakerのイベントで講演多数。</p>
+</aside><aside class="author"><h3>深澤真吾（ふかさわしんご）</h3><p>第8&#12316;9章担当<br />
+寿商会 開発マネージャー。FileMaker認定デベロッパ10-16。アメリカで開催されたFileMaker Developer Conference 2014の開発者選手権において個人世界8位に入賞した経験がある。FileMaker 公式トレーニング「FileMaker Master Training」トレーナーを務め，<wbr/>開発者の育成にも力を入れている。</p>
+</aside><aside class="author"><h3>株式会社寿商会（かぶしきがいしゃことぶきしょうかい）</h3><p>昭和22年創業。卸売事業とFileMaker事業を主とする。FileMaker Business Alliance PLATINUM，<wbr/>Apple Consultants Networkメンバー。<br />
+2013年 FileMaker Excellence Award「FileMaker Mad Dog Public Relations」をアメリカ本社で受賞。FileMaker Japan Excellence Awardでは2012～2016年まで連続受賞。<br />
+iPad／<wbr/>iPhone向けFileMaker Goの受託開発は国内最大の実績を誇り，<wbr/>ファイルメーカー社のホームページに導入事例が数多く紹介されています。<br />
+ホームページ：<a hre="http://www.filemaker.com/jp/solutions/customers/">http://www.filemaker.com/jp/solutions/customers/</a>
+</p>
+</aside><section id="sample"><h2>サンプル</h2><ul class="pdf"><li><a href="/assets/files/book/2017/978-4-7741-9059-4/9784774190594-01.pdf" target="_blank">サンプルPDFファイル1</a>（3,671KB）</li></ul>
+</section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35158">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章　データベースについて知ろう</h3>
+<ul class="toc">
+<li>Section01　データベースと表計算ソフトの違いを知ろう</li>
+<li>Section02　データベースが役立つ用途を知ろう</li>
+<li>Section03　データベースの構造を知ろう</li>
+<li>Section04　データベースソフトの種類を知ろう</li>
+<li>Section05　FileMaker Proでできることを知ろう</li>
+
+</ul>
+<h3>第2章サンプルファイルでデータベースを操作しよう</h3>
+<ul class="toc">
+<li>Section01　FileMaker Proのデータベースを開く</li>
+<li>Section02　操作モードを切り替える</li>
+<li>Section03　レコードの表示形式を切り替える</li>
+<li>Section04　必要なレコードをかんたんに検索する</li>
+<li>Section05　必要なレコードを検索する</li>
+<li>Section06　複雑な条件でレコードを検索する</li>
+<li>Section07　演算子を使ってレコードを検索する</li>
+<li>Section08　レコードの並び順を変更する</li>
+<li>Section09　レコードを作成・削除する</li>
+<li>Section10　レコードにファイルを挿入する</li>
+<li>Section11　レコードを紙やPDFに出力する</li>
+<li>Section12　他の形式のデータをFileMaker Proに取り込む</li>
+<li>Section13　FileMaker Proのデータを他の形式で取り出す</li>
+
+</ul>
+<h3>第3章　新しいデータベースを作成しよう</h3>
+<ul class="toc">
+<li>Section01　作成するデータベースの機能を確認する</li>
+<li>Section02　データベースを新規作成する</li>
+<li>Section03　データを入力するためフィールドを作成する</li>
+
+</ul>
+<h3>第4章　見やすく使いやすいレイアウトにしよう</h3>
+<ul class="toc">
+<li>Section01　レイアウト上にフィールドを配置する</li>
+<li>Section02　デザインパターンを切り替える</li>
+<li>Section03　インスペクタを表示させる</li>
+<li>Section04　オブジェクトのサイズや位置を調整する</li>
+<li>Section05　オブジェクトの位置やサイズを自動的に調整する</li>
+<li>Section06　オブジェクトのスタイルを変更する</li>
+<li>Section07　オブジェクトの外観を変更する</li>
+<li>Section08　フィールドが空のときにメッセージを表示させる</li>
+<li>Section09　値一覧を作成する</li>
+<li>Section10　ドロップダウンリストとポップアップメニューを利用する</li>
+<li>Section11　チェックボックスセットとラジオボタンセットを利用する</li>
+<li>Section12　ドロップダウンカレンダーを利用する</li>
+<li>Section13　編集ボックスの機能を利用する</li>
+<li>Section14　数字タイプの書式設定を変更する</li>
+<li>Section15　日付タイプの書式設定を変更する</li>
+<li>Section16　条件によってオブジェクトを隠す</li>
+<li>Section17　条件によって外観が変化するように設定する</li>
+<li>Section18　カーソル移動の設定を変更する</li>
+<li>Section19　タブを利用してスペースを広く使う</li>
+<li>Section20　ポップオーバーを活用する</li>
+<li>Section21　データと連動したWebページを表示する</li>
+<li>Section22　誤って入力してももとに戻せるようにする</li>
+<li>Section23　印刷用のレイアウトを作成する</li>
+<li>Section24　宛名ラベル印刷用のレイアウトを作成する</li>
+
+</ul>
+<h3>第5章　データ入力を便利にする機能を追加しよう</h3>
+<ul class="toc">
+<li>Section01　シリアル番号を自動的に入力する</li>
+<li>Section02　規定値を自動的に入力する</li>
+<li>Section03　日時を自動的に入力する</li>
+<li>Section04　ふりがなを自動的に入力する</li>
+<li>Section05　入力欄を空欄のままにできないようにする</li>
+<li>Section06　重複したデータを入力できないようにする</li>
+<li>Section07　範囲を越える数字や文字数を入力できないようにする</li>
+<li>Section08　計算式で制限を設定する</li>
+<li>Section09　計算結果を表示するフィールドを作成する</li>
+<li>Section10　文字を連結した結果を表示するフィールドを作成する</li>
+<li>Section11　自動的に集計するフィールドを作成する</li>
+
+</ul>
+<h3>第6章　リレーションシップを設定してデータを連携しよう</h3>
+<ul class="toc">
+<li>Section01　リレーショナルデータベースとは</li>
+<li>Section02　テーブルを追加する</li>
+<li>Section03　テーブルオカレンスを追加する</li>
+<li>Section04　リレーションシップを設定する</li>
+<li>Section05　リレーションシップの結果を表示する</li>
+<li>Section06　リレーションシップの結果をポータルで表示する</li>
+<li>Section07　リレーションシップの結果をフィールドに保存する</li>
+<li>Section08　起点となるテーブルオカレンスについて考える</li>
+<li>Section09　異なるテーブルオカレンスからリレーションシップの結果を表示する</li>
+<li>Section10　リレーションシップの結果を表示するフィールドを作成する</li>
+
+</ul>
+<h3>第7章　スクリプトを作成して処理を自動化しよう</h3>
+<ul class="toc">
+<li>Section01　スクリプトとは</li>
+<li>Section02　スクリプトにしたい操作を確認する</li>
+<li>Section03　スクリプトを作成する</li>
+<li>Section04　スクリプトを実行するためのボタンを配置する</li>
+<li>Section05　よく使うスクリプトのパターンを修正する</li>
+
+</ul>
+<h3>第8章　FileMaker Proをもっと便利に活用しよう</h3>
+<ul class="toc">
+<li>Section01　アカウントとアクセス権セットを確認する</li>
+<li>Section02　新しいアカウントを作成する</li>
+<li>Section03　FileMaker Proのデータベースを共有する</li>
+<li>Section04　共有されたデータベースを利用する</li>
+<li>Section05　現在の対象レコードを保存する</li>
+
+</ul>
+<h3>第9章　iPad／iPhoneでデータベースを利用しよう</h3>
+<ul class="toc">
+<li>Section01　FileMaker Goをインストールする</li>
+<li>Section02　FileMaker Goにデータベースを保存する</li>
+<li>Section03　FileMaker Goのデータベースをパソコンに戻す</li>
+<li>Section04　FileMaker Goでレコードを操作する</li>
+<li>Section05　FileMaker Goでレコードを閲覧する</li>
+<li>Section06　FileMaker Goでレコードを検索する</li>
+<li>Section07　FileMaker Goでレコードをソートする</li>
+<li>Section08　FileMaker Goで写真を撮る・写真を使う</li>
+<li>Section09　FileMaker Goの写真を他のアプリに送る</li>
+<li>Section10　FileMaker Goで現在のレコードをPDFに保存する</li>
+<li>Section11　FileMaker Goのデータベースからレコードをエクスポートする</li>
+<li>Section12　共有されたデータベースをFileMaker Goで利用する</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>以下のファイルをダウンロードできます。圧縮ファイルをダウンロードしていただき，<wbr/>適宜解凍してご利用ください。</p>
+
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2017/978-4-7741-9059-4/download/sampledb.zip">サンプルデータベースファイル</a></dd>
+</dl><h3 id="errata">正誤表</h3>
+<p>本書の以下の部分に誤りがありました。ここに訂正するとともに，<wbr/>ご迷惑をおかけしたことを深くお詫び申し上げます。</p>
+<div align="right">（2017年7月31日最終更新）</div>
+
+<h4>P.74　手順［6］2～3行目</h4>
+<table class="errataTable" cellspacing="0">
+<tbody>
+<tr><th>誤</th><td>
+＜新規レコード＞をクリックすると（②）、自動的に＜No＞フィールドに連番が入力されます。
+</td></tr>
+<tr><th>正</th><td>
+＜新規レコード＞をクリックすると（②）、<strong>確認のダイアログが表示されるので、＜保存＞をクリックします。</strong>自動的に＜No＞フィールドに連番が入力されます。
+</td></tr>
+</tbody></table>
+
+
+<h4>P.74　手順［8］3～8行目</h4>
+<table class="errataTable" cellspacing="0">
+<tbody>
+<tr><th>誤</th><td>
+レコードが確定して確認のダイアログが表示されるので、＜OK＞をクリックします（③）。＜顧客名＞フィールドが空欄のため、続いて表示される確認のダイアログで＜キャンセル＞をクリックします。
+</td></tr>
+<tr><th>正</th><td>
+レコードが確定して確認のダイアログが表示されるので、<strong>＜保存＞</strong>をクリックします（③）。＜顧客名＞フィールドが空欄のため、続いて表示される確認のダイアログで<strong>＜いいえ＞</strong>をクリックします。
+</td></tr>
+</tbody></table>
+
+
+<h4>P.75　一番上の図</h4>
+<p>③では＜キャンセル＞ではなく，<wbr/>＜保存＞をクリックします。</p>
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9196-9","path":"\/dp\/ebook\/2017\/978-4-7741-9196-9","targetId":"978-4-7741-9196-9","parent":"\/dp\/genre\/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

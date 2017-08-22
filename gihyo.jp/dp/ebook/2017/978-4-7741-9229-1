@@ -1,0 +1,414 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>WEB+DB PRESS Vol.100 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="特集1作って学ぶ人工知能自然言語処理，機械学習，深層学習がまるわかり！今，人工知能が注目を集めています。そこで本特集では，人工知能がどのような技術でできているのかについて，その中でも特に「人を支援する人工知能」で使われている自然言語処理，機械学習，深層学習の3つについて，具体的なチュートリアルや実用化のノウハウを交えつつ解説していきます。特集2対応必須！ 完全HTTPS化移行手順からつまずくポイントまで多くのWebサービスにおいて，個人情報や認証処理などを扱うためHTTPS通信が使われています。従来は「守りたいページ」でだけ使われてきたHTTPS通信ですが，それだけでは不十分な時代へと移りつつあります。本特集では，WebサービスのすべてのページでHTTPSを利用する「完全HTTPS化」を行うべき理由やその方法を，クックパッドを完全HTTPS化したエンジニアが解説します。特集3メルカリ開発ノウハウ大公開ぜんぶ見せます！ 1日100万出品のフリマアプリの舞台裏メルカリは，個人間で簡単に売り買いができるフリマアプリです。2013年にリリースされて以降成長を続け，累計ダウンロード数は7,500万に達しており，北米とイギリスでもサービスを展開しています。本特集では，ここまで4 年間の成長を支えてきたメルカリの開発と組織が，成長に伴って発生する問題にどのように対応していったのかを解説していきます。100号記念選書TOPエンジニアを支える1冊超豪華23名！創刊100号を記念し，第一線のエンジニアの方々お勧めの技術書を紹介していただきます。印象的な1冊，記憶に留まる1冊，初心を取り戻す1冊など，さまざまな名著が目白押しです。100号記念エッセイあのときの自分へもし，過去に戻ってアドバイスできるなら人間誰しも，「この選択であっているのだろうか」「自分の考えは正しいのだろうか」と迷うことがあるはずです。しかしそのような迷いの中には，時を経たことで不明確だったことが明確になったり，経験を積んでより課題を理解できるようになったりすることで，答えが出るものも多くあります。100号記念となる本エッセイでは，第一線で活躍しているエンジニアが，悩んだり迷ったりしていた「あのときの自分」に，現在の自分からアドバイスします。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="WEB+DB PRESS Vol.100 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="特集1作って学ぶ人工知能自然言語処理，機械学習，深層学習がまるわかり！今，人工知能が注目を集めています。そこで本特集では，人工知能がどのような技術でできているのかについて，その中でも特に「人を支援する人工知能」で使われている自然言語処理，機械学習，深層学習の3つについて，具体的なチュートリアルや実用化のノウハウを交えつつ解説していきます。特集2対応必須！ 完全HTTPS化移行手順からつまずくポイントまで多くのWebサービスにおいて，個人情報や認証処理などを扱うためHTTPS通信が使われています。従来は「守りたいページ」でだけ使われてきたHTTPS通信ですが，それだけでは不十分な時代へと移りつつあります。本特集では，WebサービスのすべてのページでHTTPSを利用する「完全HTTPS化」を行うべき理由やその方法を，クックパッドを完全HTTPS化したエンジニアが解説します。特集3メルカリ開発ノウハウ大公開ぜんぶ見せます！ 1日100万出品のフリマアプリの舞台裏メルカリは，個人間で簡単に売り買いができるフリマアプリです。2013年にリリースされて以降成長を続け，累計ダウンロード数は7,500万に達しており，北米とイギリスでもサービスを展開しています。本特集では，ここまで4 年間の成長を支えてきたメルカリの開発と組織が，成長に伴って発生する問題にどのように対応していったのかを解説していきます。100号記念選書TOPエンジニアを支える1冊超豪華23名！創刊100号を記念し，第一線のエンジニアの方々お勧めの技術書を紹介していただきます。印象的な1冊，記憶に留まる1冊，初心を取り戻す1冊など，さまざまな名著が目白押しです。100号記念エッセイあのときの自分へもし，過去に戻ってアドバイスできるなら人間誰しも，「この選択であっているのだろうか」「自分の考えは正しいのだろうか」と迷うことがあるはずです。しかしそのような迷いの中には，時を経たことで不明確だったことが明確になったり，経験を積んでより課題を理解できるようになったりすることで，答えが出るものも多くあります。100号記念となる本エッセイでは，第一線で活躍しているエンジニアが，悩んだり迷ったりしていた「あのときの自分」に，現在の自分からアドバイスします。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9229-1"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9229-1.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">WEB+DB PRESS Vol.100</h1><p id="bookSeries">→<a href="/dp/series/WEB%2BDB%20PRESS">バックナンバー一覧</a></p>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9229-1.jpg" alt="WEB+DB PRESS Vol.100"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    
+    
+    <dt>発売日</dt>
+    <dd><time datetime="2017-08-24">2017年8月24日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-08-24">2017年8月24日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/magazine/wdpress/archive/2017/vol100" target="_blank">2017年8月24日に発売される雑誌</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">PDF</span><span class="buy">1,598円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">160</span>ページ相当</span><span class="pdf">PDF</span> <span class="plan">8月24日発売予定<a href="#" id="releaseNotify" class="" data-pid="401822" title="発売日にメールで通知する（要ログイン）">発売日に通知する</a></span></dd>
+<dt><span class="name">定期購読（PDF）</span><span class="buy">年間一括9,588円／毎号1,598円 <a id="pidSubscribe" href="/dp/subscription/wdpress" class="subscription" title="定期購読を申し込む">定期購読を申し込む</a></span></dt><dd>お申し込み画面で選択してください</dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9229-1" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9229-1" data-text="WEB+DB PRESS Vol.100 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9229-1" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9229-1"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9229-1" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<h3><span class="category">特集1</span><br />
+<span class="title">作って学ぶ人工知能</span><br />
+<span class="chach">自然言語処理，<wbr/>機械学習，<wbr/>深層学習がまるわかり！</span>
+</h3>
+<p>今，<wbr/>人工知能が注目を集めています。そこで本特集では，<wbr/>人工知能がどのような技術でできているのかについて，<wbr/>その中でも特に「人を支援する人工知能」で使われている自然言語処理，<wbr/>機械学習，<wbr/>深層学習の3つについて，<wbr/>具体的なチュートリアルや実用化のノウハウを交えつつ解説していきます。</p>
+
+<h3><span class="category">特集2</span><br />
+<span class="title">対応必須！ 完全HTTPS化</span><br />
+<span class="chach">移行手順からつまずくポイントまで</span>
+</h3>
+<p>多くのWebサービスにおいて，<wbr/>個人情報や認証処理などを扱うためHTTPS通信が使われています。従来は「守りたいページ」でだけ使われてきたHTTPS通信ですが，<wbr/>それだけでは不十分な時代へと移りつつあります。本特集では，<wbr/>WebサービスのすべてのページでHTTPSを利用する「完全HTTPS化」を行うべき理由やその方法を，<wbr/>クックパッドを完全HTTPS化したエンジニアが解説します。</p>
+
+<h3><span class="category">特集3</span><br />
+<span class="title">メルカリ開発ノウハウ大公開</span><br />
+<span class="chach">ぜんぶ見せます！ 1日100万出品のフリマアプリの舞台裏</span>
+</h3>
+<p>メルカリは，<wbr/>個人間で簡単に売り買いができるフリマアプリです。2013年にリリースされて以降成長を続け，<wbr/>累計ダウンロード数は7,500万に達しており，<wbr/>北米とイギリスでもサービスを展開しています。本特集では，<wbr/>ここまで4 年間の成長を支えてきたメルカリの開発と組織が，<wbr/>成長に伴って発生する問題にどのように対応していったのかを解説していきます。</p>
+
+<h3><span class="category">100号記念選書</span><br />
+<span class="title">TOPエンジニアを支える1冊</span><br />
+<span class="chach">超豪華23名！</span>
+</h3>
+<p>創刊100号を記念し，<wbr/>第一線のエンジニアの方々お勧めの技術書を紹介していただきます。印象的な1冊，<wbr/>記憶に留まる1冊，<wbr/>初心を取り戻す1冊など，<wbr/>さまざまな名著が目白押しです。</p>
+
+
+<h3><span class="category">100号記念エッセイ</span><br />
+<span class="title">あのときの自分へ</span><br />
+<span class="chach">もし，<wbr/>過去に戻ってアドバイスできるなら</span>
+</h3>
+<p>人間誰しも，<wbr/>「この選択であっているのだろうか」「自分の考えは正しいのだろうか」と迷うことがあるはずです。しかしそのような迷いの中には，<wbr/>時を経たことで不明確だったことが明確になったり，<wbr/>経験を積んでより課題を理解できるようになったりすることで，<wbr/>答えが出るものも多くあります。100号記念となる本エッセイでは，<wbr/>第一線で活躍しているエンジニアが，<wbr/>悩んだり迷ったりしていた「あのときの自分」に，<wbr/>現在の自分からアドバイスします。</p>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35238">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>
+<span class="category">特集1</span><br />
+<span class="title">作って学ぶ人工知能</span><br />
+<span class="chach">自然言語処理，機械学習，深層学習がまるわかり！</span>
+</h3>
+
+<ul class="toc">
+<li><span class="chapter">第1章</span><br />
+<span class="title">人工知能とはどんな技術なのか？</span><br />
+<span class="chach">歴史，基盤となる技術や手法，活用のノウハウ</span><br />
+<span class="author">&hellip;&hellip;河原 一哉</span></li>
+<li><span class="chapter">第2章</span><br />
+<span class="title">自然言語処理</span><br />
+<span class="chach">文書のクリーニングから正規化，データ表現までの実用的ノウハウ</span><br />
+<span class="author">&hellip;&hellip;白土 慧</span></li>
+<li><span class="chapter">第3章</span><br />
+<span class="title">機械学習</span><br />
+<span class="chach">scikit-learnとgensimで，文書の自動分類を実現！</span><br />
+<span class="author">&hellip;&hellip;菊田 洸</span></li>
+<li><span class="chapter">第4章</span><br />
+<span class="title">深層学習とニューラルネットワーク</span><br />
+<span class="chach">word2vecとGloVeで，「パリ」－「フランス」＋「日本」＝「東京」を実現！</span><br />
+<span class="author">&hellip;&hellip;西鳥羽 二郎</span></li>
+</ul>
+<h3>
+<span class="category">特集2</span><br />
+<span class="title">対応必須！ 完全HTTPS化</span><br />
+<span class="chach">移行手順からつまずくポイントまで</span>
+</h3>
+
+<ul class="toc">
+<li><span class="chapter">第1章</span><br />
+<span class="title">なぜ完全HTTPS化が必要なのか</span><br />
+<span class="chach">Webサービスを安心して利用してもらうために</span><br />
+<span class="author">&hellip;&hellip;星 北斗</span></li>
+<li><span class="chapter">第2章</span><br />
+<span class="title">完全HTTPS化はじめの一歩</span><br />
+<span class="chach">証明書の選び方，構成の検討，テスト環境の構築</span><br />
+<span class="author">&hellip;&hellip;星 北斗</span></li>
+<li><span class="chapter">第3章</span><br />
+<span class="title">HTTPリソースのHTTPS化</span><br />
+<span class="chach">mixed contentを効率的に修正するには</span><br />
+<span class="author">&hellip;&hellip;星 北斗</span></li>
+<li><span class="chapter">第4章</span><br />
+<span class="title">リリース時に注意すべきこと</span><br />
+<span class="chach">確認すべき事項と，ミスを防ぐリリースの順序</span><br />
+<span class="author">&hellip;&hellip;星 北斗</span></li>
+<li><span class="chapter">第5章</span><br />
+<span class="title">クックパッド完全HTTPS化の影響</span><br />
+<span class="chach">収益，ユーザーの反応，パフォーマンスはどう変わったか</span><br />
+<span class="author">&hellip;&hellip;星 北斗</span></li>
+</ul>
+<h3>
+<span class="category">特集3</span><br />
+<span class="title">メルカリ開発ノウハウ大公開</span><br />
+<span class="chach">ぜんぶ見せます！ 1日100万出品のフリマアプリの舞台裏</span>
+</h3>
+
+<ul class="toc">
+<li><span class="chapter">第1章</span><br />
+<span class="title">グローバルで戦うメルカリの開発組織</span><br />
+<span class="chach">チームのパフォーマンスを最大化する体制としくみづくり</span><br />
+<span class="author">&hellip;&hellip;柄沢 聡太郎</span></li>
+<li><span class="chapter">第2章</span><br />
+<span class="title">スピード開発のサーバサイド</span><br />
+<span class="chach">開発着手からリリースまでの流れと，メルカリAPIの裏側</span><br />
+<span class="author">&hellip;&hellip;大谷 勇毅，新井 啓太</span></li>
+<li><span class="chapter">第3章</span><br />
+<span class="title">使い勝手を決めるモバイルアプリ開発</span><br />
+<span class="chach">ログの収集と，ABテストの活用</span><br />
+<span class="author">&hellip;&hellip;HANADA Yoshihito</span></li>
+<li><span class="chapter">第4章</span><br />
+<span class="title">品質を支えるQAとSET</span><br />
+<span class="chach">手動と自動の両輪，QA環境の整備，E2Eテストの自動化</span><br />
+<span class="author">&hellip;&hellip;増田 謙一，池上 達也，木下 祐実，藤原 大</span></li>
+<li><span class="chapter">第5章</span><br />
+<span class="title">信頼性向上を担うSRE</span><br />
+<span class="chach">ハイブリッド＆マルチクラウド，アーキテクチャの共通化</span><br />
+<span class="author">&hellip;&hellip;長野 雅広</span></li>
+<li><span class="chapter">Appendix</span><br />
+<span class="title">高速PDCAを支えるデータ分析</span><br />
+<span class="chach">分析体制と，BigQueryを中心とした分析環境</span><br />
+<span class="author">&hellip;&hellip;樫田 光</span></li>
+</ul>
+
+<h3>
+<span class="category">100号記念選書</span><br />
+<span class="title">TOPエンジニアを支える1冊</span><br />
+<span class="chach">超豪華23名！</span>
+</h3>
+<ul class="toc">
+<li><span class="author">縣 俊貴，大川 徳之，栗林 健太郎，小飼 弾，庄司 嘉織，鈴木 勇介，高橋 征義，田中 哲，徳永 拓之，中嶋 謙互，中島 拓，西尾 泰和，西田 圭介，羽生 章洋，藤本 真樹，外村 和仁，まつもとゆきひろ，松本 亮介，ミック，三宅 陽一郎，森田 創，山本 陽平，吉羽 龍太郎</span></li>
+</ul>
+
+
+<h3>
+<span class="category">100号記念エッセイ</span><br />
+<span class="title">あのときの自分へ</span><br />
+<span class="chach">もし，過去に戻ってアドバイスできるなら</span>
+</h3>
+
+<ul class="toc">
+<li><span class="chapter">第1章</span><br />
+<span class="title">勉強すべきこと，すべきでないこと</span><br />
+<span class="author">&hellip;&hellip;深津 貴之</span></li>
+<li><span class="chapter">第2章</span><br />
+<span class="title">Web技術の変化に適応し続けるには</span><br />
+<span class="author">&hellip;&hellip;泉水 翔吾</span></li>
+<li><span class="chapter">第3章</span><br />
+<span class="title">技術を磨き続けよう</span><br />
+<span class="author">&hellip;&hellip;佐藤 太一</span></li>
+<li><span class="chapter">第4章</span><br />
+<span class="title">Good Choice!</span><br />
+<span class="author">&hellip;&hellip;arton</span></li>
+<li><span class="chapter">第5章</span><br />
+<span class="title">君は孤独じゃない</span><br />
+<span class="author">&hellip;&hellip;松田 明</span></li>
+</ul>
+
+<h3>連載</h3>
+<ul class="toc">
+<li>どんとこい！ フロントエンド開発<br />
+【第2回】AMP対応でモバイルサイトを高速表示！<br />
+<span class="author">&hellip;&hellip;脇崎 正俊，安部 洋平，安川 潤一</span></li>
+
+<li>Goに入りては…… ── When In Go...<br />
+【第2回】Goプログラムのパフォーマンス向上 ……アロケーションが起こるタイミングを知る<br />
+<span class="author">&hellip;&hellip;牧 大輔</span></li>
+<li>Perl Hackers Hub<br />
+【第46回】Perl 5.26で変わること<br />
+<span class="author">&hellip;&hellip;石垣 憲一，監修：牧 大輔，松木 雅幸，大沢 和宏</span></li>
+
+<li>Javaの新定石 ── モダンな技術で現場を加速！<br />
+【第9回】Selenideでブラウザ自動テスト ……使い方から現場で遭遇する問題まで<br />
+<span class="author">&hellip;&hellip;のざき ひろふみ，うらがみ</span></li>
+
+<li>実践！ 先進的インフラ運用 ── 検索してもでてこない，ホスティングの現場で培ったノウハウ<br />
+【第2回】完全HTTPS時代の証明書管理 ……データベースで一括管理！<br />
+<span class="author">&hellip;&hellip;平原 正裕</span></li>
+</ul>
+<h3>コラム</h3>
+<ul class="toc">
+<li>縁の下のUIデザイン ── 少しの工夫で大きな改善！<br />
+【第3回】赤の使い方 ……色が与える直感的な印象を活かす<span class="author">&hellip;&hellip;池田 拓司</span></li>
+<li>継続は力なり ── 大器晩成エンジニアを目指して<br />
+【第8回】無駄な英語勉強<span class="author">&hellip;&hellip;ひげぽん</span></li>
+<li>はまちちゃんとわかばちゃんのREADER'S FORUM ── 読者のページ<br />
+【第51回】<span class="author">&hellip;&hellip;はまちや2，竹原</span></li>
+</ul>
+<h3>Special Report</h3>
+<ul class="toc">
+<li>『Androidを支える技術』出版記念イベント<br />
+<span class="author">&hellip;&hellip;黒川 洋</span></li>
+</ul>
+<h3>特別広報</h3>
+<ul class="toc">
+<li>「Express Connect」到来<br />
+新たな可能性を生み出すAlibaba Cloud専用型ネットワークサービス<br />
+<span class="author">&hellip;&hellip;編集部</span></li>
+
+<li>オフショア開発最前線<br />
+フランジアが目指す事業創生のプラットフォーム<br />
+<span class="author">&hellip;&hellip;小林 泰平</span></li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<dl class="footNote">
+<dt>■ご注意</dt>
+<dd><ul class="listBlock01">
+<li><strong>※</strong> 本コーナーは，<wbr/>本誌記事参考用資料としてのご提供を目的としております。</li>
+<li><strong>※</strong> 本誌記載の内容およびサポートサイトで公開しているサンプルコードに基づく運用の結果について，<wbr/>記事の筆者，<wbr/>プログラムの作者/提供元，<wbr/>(株)技術評論社は一切の責任を負いかねます。ご自身の責任のもと，<wbr/>ご使用ください。</li>
+<li><strong>※</strong> 各サンプルファイル/ソースコードには，<wbr/>個別に，<wbr/>ライセンスやREADMEファイルなどで注意事項/制限事項が添付されている場合がございます。その場合，<wbr/>該当のライセンス，<wbr/>注意事項/制限事項を優先して適用とさせていただきますので，<wbr/>ダウンロード後，<wbr/>内容をご確認ください。</li></ul></dd>
+</dl>
+
+<h4>特集1「作って学ぶ人工知能」</h4>
+<ul>
+<li>本特集で使用された<a href="http://image.gihyo.co.jp/assets/files/magazine/wdpress/2017/100/WDB100-toku1-AI.zip">ソースコード</a></li>
+</ul>
+
+<h4>特集2「対応必須！ 完全HTTPS化」</h4>
+<ul>
+<li>本連載で利用しているサンプルコードは，<wbr/>以下のGitHubリポジトリからダウンロードできます。<br />
+<a><a href="https://github.com/kanny/webdb100-https-example">https://github.com/kanny/webdb100-https-example</a></li>
+</ul>
+
+
+<h4>連載</h4>
+
+<ul>
+<li>「どんとこい！ フロントエンド開発」で使用された<a href="http://image.gihyo.co.jp/assets/files/magazine/wdpress/2017/100/WDB100-Frontend-02.zip">ソースコード</a></li>
+<li>「Goに入りては…… ── When In Go...」で使用された<a href="http://image.gihyo.co.jp/assets/files/magazine/wdpress/2017/100/WDB100-WhenInGo-02.zip">ソースコード</a></li>
+<li>「Perl Hackers Hub」で使用された<a href="http://image.gihyo.co.jp/assets/files/magazine/wdpress/2017/100/WDB100-Perl-46.zip">ソースコード</a></li>
+<li>「Javaの新定石 ── モダンな技術で現場を加速！」で使用された<a href="http://image.gihyo.co.jp/assets/files/magazine/wdpress/2017/100/WDB100-Java-09.zip">ソースコード</a></li>
+<li>「実践！ 先進的インフラ運用 ── 検索してもでてこない，<wbr/>ホスティングの現場で培ったノウハウ」で使用された<a href="http://image.gihyo.co.jp/assets/files/magazine/wdpress/2017/100/WDB100-AdvancedInfra-02.zip">ソースコード</a></li>
+</ul>
+
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9229-1","path":"\/dp\/ebook\/2017\/978-4-7741-9229-1","targetId":"978-4-7741-9229-1","parent":"\/dp","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

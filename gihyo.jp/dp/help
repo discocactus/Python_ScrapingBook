@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>ヘルプ | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="サイトの使い方の説明，FAQ | 技術評論社の電子書籍（電子出版）販売サイト"/>
+  <meta name="keywords" content="ヘルプ,電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="ヘルプ | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="サイトの使い方の説明，FAQ | 技術評論社の電子書籍（電子出版）販売サイト"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/help"/>
+  <meta property="og:image" content="/dp/assets/gdp-icon.png"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+    <div id="helpList"><h2>電子書籍の購入</h2>
+<ul class="list-help">
+<li><a href="/dp/help/buy/account">アカウント登録について</a></li>
+<li><a href="/dp/help/buy/external">外部サービスでのログインについて</a></li>
+<li><a href="/dp/help/buy/forgot">ユーザー名，<wbr/>パスワードを忘れました。どうすればいいでしょうか？</a></li>
+<li><a href="/dp/help/buy/cart">カートについて</a></li>
+<li><a href="/dp/help/buy/mypage">マイページとは？</a></li>
+<li><a href="/dp/help/buy/payment">支払いの方法について教えてください</a></li>
+<li><a href="/dp/help/buy/paypal">PayPal<wbr/>とは何ですか？</a></li>
+<li><a href="/dp/help/buy/fastpay">Yahoo!<wbr/>ウォレット FastPay<wbr/>とは何ですか？</a></li>
+<li><a href="/dp/help/buy/paypal-01">PayPal<wbr/>や<wbr/>Yahoo!<wbr/>のアカウントがありませんが購入できますか？</a></li>
+<li><a href="/dp/help/buy/receipt">領収書は発行できますか？</a></li>
+<li><a href="/dp/help/buy/return">返品できますか？</a></li>
+<li><a href="/dp/help/buy/overseas">海外からでも利用できますか？</a></li>
+<li><a href="/dp/help/buy/gihyobook">技術評論社発行の書籍ならどれでも電子版として購入できますか？</a></li>
+<li><a href="/dp/help/buy/pages">商品ページに記載されているページ数<wbr/>「○○ページ相当」<wbr/>とは何を意味しますか？</a></li>
+<li><a href="/dp/help/buy/giftcode">ギフトコードについて</a></li>
+<li><a href="/dp/help/buy/advancenotification">予約購入はできますか？</a></li>
+<li><a href="/dp/help/buy/otherstore">Amazon Kindle，<wbr/>Google Play，<wbr/>楽天<wbr/>kobo<wbr/>など外部の電子書籍ストアで購入できますか？</a></li>
+<li><a href="/dp/help/buy/price">販売価格について</a></li>
+<li><a href="/dp/help/buy/bulkpurchase">学校・<wbr/>法人等団体での利用はどのようにすれば良いですか？</a></li>
+</ul>
+<h2>電子書籍の読み方・扱い方</h2>
+<ul class="list-help">
+<li><a href="/dp/help/reading/attention">電子書籍・<wbr/>電子雑誌を読むときの注意点・<wbr/>禁止行為</a></li>
+<li><a href="/dp/help/reading/format">販売している電子書籍の種類<wbr/>（フォーマット）<wbr/>と，<wbr/>その違いは何ですか？</a></li>
+<li><a href="/dp/help/reading/contents">購入した電子書籍を入手<wbr/>（ダウンロード）<wbr/>するにはどうしたらいいですか？</a></li>
+<li><a href="/dp/help/reading/forepub">EPUB<wbr/>版の電子書籍はどうやって読めばいいのでしょうか？</a></li>
+<li><a href="/dp/help/reading/forpdf">PDF<wbr/>版の電子書籍はどうやって読めばいいのでしょうか？</a></li>
+<li><a href="/dp/help/reading/aboutpdf">PDF<wbr/>には何か制限がかかっていますか？</a></li>
+<li><a href="/dp/help/reading/aboutcopy">電子書籍はいくらでもコピーして構いませんか？</a></li>
+<li><a href="/dp/help/reading/rental">電子書籍の回し読み，<wbr/>貸し借りはできますか？</a></li>
+<li><a href="/dp/help/reading/offline">電子書籍はオフラインで読むことができますか？</a></li>
+<li><a href="/dp/help/reading/standreading">立ち読みはできますか？ 無料お試し版はありますか？</a></li>
+<li><a href="/dp/help/reading/download">購入した電子書籍は何度でもダウンロードできるのですか？</a></li>
+<li><a href="/dp/help/reading/drm">電子コンテンツに<wbr/>DRM<wbr/>はかかっていますか？</a></li>
+</ul>
+<h2>サイトについて</h2>
+<ul class="list-help">
+<li><a href="/dp/help/about/site">このサイトについて</a></li>
+<li><a href="/dp/help/about/terms">利用規約</a></li>
+<li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+<li><a href="/dp/help/about/law">特定商取引法に基づく表記</a></li>
+<li><a href="/dp/help/about/known-bugs">既知の不具合について</a></li>
+<li><a href="/dp/help/about/inquiry">問い合わせたいことがあるのですが</a></li>
+</ul>
+
+
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp" class="current"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/help","path":"\/dp\/help","body":"    <div id=\"helpList\">\n\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Software Design 2017年9月号 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="第1特集Web技術【超】入門いま一度振り返るWebのしくみと開発方法Webアプリケーションを構成する技術は多岐に渡ります。現場ではスペシャリストとして一部分だけにかかわっているとしても，アプリケーションやサービスに最適な機能や運用を考えられるように，一通りの知識を有しておけると，理想的ですよね。その理想，本特集で叶えます。とくに，時代が変わってもすぐには廃れないWebアプリケーションのベースとなっている技術（HTTPなどのプロトコル，ApacheなどのWebサーバ，Javaサーブレットなどフレームワーク，ブラウザやスマホアプリなどのクライアント技術）について解説します。第2特集tmux＆Byobu開発効率アップのターミナル改造術「エディタを開きながらすぐ横でコマンドを動かしたい」「同じコマンドを4つ同時に実行したい」といった場面では，1つの端末画面だと力不足を感じるでしょう。そんな問題の最適解として，端末画面を分割・多重起動して開発・運用効率を上げる「ターミナルマルチプレクサ」があります。本特集ではその代表ソフトとも言えるtmuxを取り上げ，入門から使いこなしまで解説します。さらに，設定要らずでtmuxを“それっぽく”使えるラッパー「Byobu」も紹介。自分でとことんカスタマイズしたい方はtmuxを，カジュアルに使いたい方はByobuを使って，マルチターミナルな環境を実現してください。一般記事不正アクセス・なりすましを防ぐ認証を支える技術自社システムやWebアプリへのログイン時，多くの場合IDとパスワードが要求されることでしょう。ユーザにとっては煩わしくもあるこの「認証」ですが，不正アクセスやなりすましといった攻撃を防ぐために，なくてはならないしくみです。本記事では，基本的な認証技術とそれに対する脅威，一度の認証で複数個所へのアクセスを可能にする「シングルサインオン」，それらを利用した現場のソリューションを紹介します。一般記事Ejectコマンドで遊んでみませんか？スマートコンセントで扇風機を回そうの巻こんにちは，Ejectコマンドユーザー会のあっきぃです。Software DesignにまたEjectがやってきました。今回はUSB扇風機をTwitterから簡単にオン・オフできる夏にピッタリなEjectコマンド工作として「Ejectスマートコンセント」を作成していきます。一般記事【最終回】［短期集中連載］人工知能時代のLispのススメJava 500行でLispを作る！　これがLispを理解する一番の早道プログラミング言語を深く理解したいなら，その言語を作ってみるのが一番の早道です。少し無茶振りかもしれませんがLisperなら当然です。そこで今回はLispを深く学ぶために，Java 500行でLispを作ってみることにします。これであなたもきっとLispを愛することになるでしょう。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="Software Design 2017年9月号 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="第1特集Web技術【超】入門いま一度振り返るWebのしくみと開発方法Webアプリケーションを構成する技術は多岐に渡ります。現場ではスペシャリストとして一部分だけにかかわっているとしても，アプリケーションやサービスに最適な機能や運用を考えられるように，一通りの知識を有しておけると，理想的ですよね。その理想，本特集で叶えます。とくに，時代が変わってもすぐには廃れないWebアプリケーションのベースとなっている技術（HTTPなどのプロトコル，ApacheなどのWebサーバ，Javaサーブレットなどフレームワーク，ブラウザやスマホアプリなどのクライアント技術）について解説します。第2特集tmux＆Byobu開発効率アップのターミナル改造術「エディタを開きながらすぐ横でコマンドを動かしたい」「同じコマンドを4つ同時に実行したい」といった場面では，1つの端末画面だと力不足を感じるでしょう。そんな問題の最適解として，端末画面を分割・多重起動して開発・運用効率を上げる「ターミナルマルチプレクサ」があります。本特集ではその代表ソフトとも言えるtmuxを取り上げ，入門から使いこなしまで解説します。さらに，設定要らずでtmuxを“それっぽく”使えるラッパー「Byobu」も紹介。自分でとことんカスタマイズしたい方はtmuxを，カジュアルに使いたい方はByobuを使って，マルチターミナルな環境を実現してください。一般記事不正アクセス・なりすましを防ぐ認証を支える技術自社システムやWebアプリへのログイン時，多くの場合IDとパスワードが要求されることでしょう。ユーザにとっては煩わしくもあるこの「認証」ですが，不正アクセスやなりすましといった攻撃を防ぐために，なくてはならないしくみです。本記事では，基本的な認証技術とそれに対する脅威，一度の認証で複数個所へのアクセスを可能にする「シングルサインオン」，それらを利用した現場のソリューションを紹介します。一般記事Ejectコマンドで遊んでみませんか？スマートコンセントで扇風機を回そうの巻こんにちは，Ejectコマンドユーザー会のあっきぃです。Software DesignにまたEjectがやってきました。今回はUSB扇風機をTwitterから簡単にオン・オフできる夏にピッタリなEjectコマンド工作として「Ejectスマートコンセント」を作成していきます。一般記事【最終回】［短期集中連載］人工知能時代のLispのススメJava 500行でLispを作る！　これがLispを理解する一番の早道プログラミング言語を深く理解したいなら，その言語を作ってみるのが一番の早道です。少し無茶振りかもしれませんがLisperなら当然です。そこで今回はLispを深く学ぶために，Java 500行でLispを作ってみることにします。これであなたもきっとLispを愛することになるでしょう。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-8845-4"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-8845-4.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Software Design 2017<wbr/>年<wbr/>9<wbr/>月号</h1><p id="bookSeries">→<a href="/dp/series/Software%20Design">バックナンバー一覧</a></p>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-8845-4.jpg" alt="Software Design 2017年9月号"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    
+    
+    <dt>発売日</dt>
+    <dd><time datetime="2017-08-18">2017年8月18日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-08-18">2017年8月18日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/magazine/SD/archive/2017/201709" target="_blank">2017年8月18日に発売された雑誌</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">1,318円 <a id="pid401821" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">184</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+<dt><span class="name">定期購読（PDF）</span><span class="buy">年間一括14,880円／毎号1,318円 <a id="pidSubscribe" href="/dp/subscription/SD" class="subscription" title="定期購読を申し込む">定期購読を申し込む</a></span></dt><dd>お申し込み画面で選択してください</dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-8845-4" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-8845-4" data-text="Software Design 2017年9月号 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-8845-4" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-8845-4"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-8845-4" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<h3><span class="category">第1特集</span><br />
+<span class="title">Web技術【超】入門</span><br />
+<span class="catch">いま一度振り返るWebのしくみと開発方法</span>
+</h3>
+<p>Webアプリケーションを構成する技術は多岐に渡ります。現場ではスペシャリストとして一部分だけにかかわっているとしても，<wbr/>アプリケーションやサービスに最適な機能や運用を考えられるように，<wbr/>一通りの知識を有しておけると，<wbr/>理想的ですよね。</p>
+
+<p>その理想，<wbr/>本特集で叶えます。とくに，<wbr/>時代が変わってもすぐには廃れないWebアプリケーションのベースとなっている技術（HTTPなどのプロトコル，<wbr/>ApacheなどのWebサーバ，<wbr/>Javaサーブレットなどフレームワーク，<wbr/>ブラウザやスマホアプリなどのクライアント技術）について解説します。</p>
+
+
+
+<h3><span class="category">第2特集</span><br />
+<span class="catch">tmux＆Byobu</span><br />
+<span class="title">開発効率アップのターミナル改造術</span>
+</h3>
+<p>「エディタを開きながらすぐ横でコマンドを動かしたい」「同じコマンドを4つ同時に実行したい」といった場面では，<wbr/>1つの端末画面だと力不足を感じるでしょう。そんな問題の最適解として，<wbr/>端末画面を分割・<wbr/>多重起動して開発・<wbr/>運用効率を上げる「ターミナルマルチプレクサ」があります。本特集ではその代表ソフトとも言えるtmuxを取り上げ，<wbr/>入門から使いこなしまで解説します。さらに，<wbr/>設定要らずでtmuxを“それっぽく”使えるラッパー「Byobu」も紹介。自分でとことんカスタマイズしたい方はtmuxを，<wbr/>カジュアルに使いたい方はByobuを使って，<wbr/>マルチターミナルな環境を実現してください。</p>
+
+
+
+<h3><span class="category">一般記事</span><br />
+<span class="catch">不正アクセス・<wbr/>なりすましを防ぐ</span><br />
+<span class="title">認証を支える技術</span>
+</h3>
+<p>自社システムやWebアプリへのログイン時，<wbr/>多くの場合IDとパスワードが要求されることでしょう。ユーザにとっては煩わしくもあるこの「認証」ですが，<wbr/>不正アクセスやなりすましといった攻撃を防ぐために，<wbr/>なくてはならないしくみです。本記事では，<wbr/>基本的な認証技術とそれに対する脅威，<wbr/>一度の認証で複数個所へのアクセスを可能にする「シングルサインオン」，<wbr/>それらを利用した現場のソリューションを紹介します。</p>
+
+
+
+<h3><span class="category">一般記事</span><br />
+<span class="title">Ejectコマンドで遊んでみませんか？</span><br />
+<span class="catch">スマートコンセントで扇風機を回そうの巻</span>
+</h3>
+<p>こんにちは，<wbr/>Ejectコマンドユーザー会のあっきぃです。Software DesignにまたEjectがやってきました。今回はUSB扇風機をTwitterから簡単にオン・<wbr/>オフできる夏にピッタリなEjectコマンド工作として「Ejectスマートコンセント」を作成していきます。</p>
+
+
+
+<h3><span class="category">一般記事</span><br />
+<span class="title">【最終回】［短期集中連載］人工知能時代のLispのススメ</span><br />
+<span class="catch">Java 500行でLispを作る！　これがLispを理解する一番の早道</span>
+</h3>
+<p>プログラミング言語を深く理解したいなら，<wbr/>その言語を作ってみるのが一番の早道です。少し無茶振りかもしれませんがLisperなら当然です。そこで今回はLispを深く学ぶために，<wbr/>Java 500行でLispを作ってみることにします。これであなたもきっとLispを愛することになるでしょう。</p>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35230">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>
+<span class="category">第1特集</span><br />
+<span class="title">Web技術【超】入門</span><br />
+<span class="catch">いま一度振り返るWebのしくみと開発方法</span>
+</h3>
+<ul class="toc">
+<li><span class="chapter">第1章</span>：<span class="catch">通信すればしくみがわかる</span><br />
+WebサーバとTelnetしてみよう！<br />
+<span class="author">&hellip;&hellip; 五十嵐 綾</span></li>
+
+<li><span class="chapter">第2章</span>：<span class="catch">Webサーバソフトウェアの動向と特徴を知ろう</span><br />
+ApacheとNginxの違いがわかりますか<br />
+<span class="author">&hellip;&hellip; 後藤 大地</span></li>
+<li><span class="chapter">第3章</span>：<span class="catch">シェアナンバー1！</span><br />
+初めてのIIS使いこなしガイド<br />
+<span class="author">&hellip;&hellip; 遠山 藤乃</span></li>
+<li><span class="chapter">第4章</span>：<span class="catch">HTTPの次はWebアプリを理解しよう</span><br />
+定番のJavaサーブレットで開発の基礎を学ぶ<br />
+<span class="author">&hellip;&hellip; 長谷川 裕一</span></li>
+<li><span class="chapter">第5章</span>：<span class="catch">案外知られていない</span><br />
+スマホゲームアプリの開発方法<br />
+<span class="author">&hellip;&hellip; 山上 健一、本間 稔彦、三浦 彩</span></li>
+</ul>
+<h3>
+<span class="category">第2特集</span><br />
+<span class="catch">tmux＆Byobu</span><br />
+<span class="title">開発効率アップのターミナル改造術</span></h3>
+<ul class="toc">
+
+<li><span class="chapter">第1章</span>：tmuxをはじめよう<br />
+<span class="catch">ウィンドウ・ペイン・セッションの概念と操作をマスター</span><br />
+<span class="author">&hellip;&hellip; 田中 智文</span></li>
+<li><span class="chapter">第2章</span>：tmuxを使いこなそう<br />
+<span class="catch">キーカスタマイズとプラグインで自分好みの環境に</span><br />
+<span class="author">&hellip;&hellip; 田中 智文</span></li>
+<li><span class="chapter">第3章</span>：<span class="catch">屏風のような美麗なスクリーンで快適な操作を！</span><br />
+tmuxを気軽に使える「Byobu」<br />
+<span class="author">&hellip;&hellip; 柴田 充也</span></li>
+</ul>
+
+<h3>一般記事</h3>
+<ul class="toc">
+<li><span class="catch">不正アクセス・なりすましを防ぐ</span><br />
+<span class="title">認証を支える技術</span><br />
+<span class="author">&hellip;&hellip; 鈴木 賢剛</span></li>
+
+<li><span class="title">Ejectコマンドで遊んでみませんか？</span><br />
+<span class="catch">スマートコンセントで扇風機を回そうの巻</span><br />
+<span class="author">&hellip;&hellip; あっきぃ</span></li>
+
+<li><span class="title">【最終回】［短期集中連載］人工知能時代のLispのススメ</span><br />
+【3】<span class="catch">Java 500行でLispを作る！　これがLispを理解する一番の早道</span><br />
+<span class="author">&hellip;&hellip; 五味 弘</span></li>
+</ul>
+
+<h3>特別広報</h3>
+<ul class="toc">
+<li><span class="catch">新たな可能性を生み出すAlibaba Cloud専用型ネットワークサービス</span><br />
+<span class="title">「Express Connect」到来</span><br />
+<span class="author">&hellip;&hellip; 編集部</span></li>
+</ul>
+<h3>Test Report</h3>
+<ul class="toc">
+<li><span class="title">NETGEAR ReadyNAS徹底運用【2】</span><br />
+<span class="catch">ReadyNASのバックアップ</span><br />
+<span class="author">&hellip;&hellip; 中山 一弘</span>
+</li>
+</ul>
+
+
+<h3>連載</h3>
+<ul class="toc">
+
+<li>ITエンジニア必須の最新用語解説<br />【105】Istio<span class="author">&hellip;&hellip; 杉山 貴章</span>
+</li>
+<li>digital gadget<br />【225】広告とテクノロジの新しい関係<span class="author">&hellip;&hellip; 安藤 幸央</span>
+</li>
+<li>結城浩の再発見の発想法<br />【52】Promise――プロミス<span class="author">&hellip;&hellip; 結城 浩</span>
+</li>
+<li>及川卓也のプロダクト開発の道しるべ<br />【11】Mind The Productカンファレンス<span class="author">&hellip;&hellip; 及川 卓也</span>
+</li>
+<li>宮原徹のオープンソース放浪記<br />【19】OSC沖縄のついでに石垣島でリモートワークしてみた<span class="author">&hellip;&hellip; 宮原 徹</span>
+</li>
+<li>ツボイのなんでもネットにつなげちまえ道場<br />【27】Electric Impを使ってみる<span class="author">&hellip;&hellip; 坪井 義浩</span>
+</li>
+<li>【新連載】シェル芸人からの挑戦状<br />【1】ファイルとファイルシステムの操作<br /> 
+<span class="author">&hellip;&hellip; 今泉 光之、上田 隆一、山田 泰宏、田代 勝也、eban、中村 壮一</span>
+</li>
+<li>RDBアンチパターン<br />【5】フラグの闇<span class="author">&hellip;&hellip; 曽根 壮大</span>
+</li>
+<li>Androidで広がるエンジニアの愉しみ<br />【18】Android 8.0の開発環境Android Studio 3.0<span class="author">&hellip;&hellip; 三宅 理</span>
+</li>
+<li>Vimの細道<br />【21】レジスタの使い方<span class="author">&hellip;&hellip; mattn</span>
+</li>
+<li>書いて覚えるSwift入門<br />【29】順番どおり問題を制する<span class="author">&hellip;&hellip; 小飼 弾</span>
+</li>
+<li>セキュリティ実践の基本定石<br />【47】マルウェアのトレンドを取り入れたランサムウェア？「Petya」<br />
+<span class="author">&hellip;&hellip; すずきひろのぶ</span>
+</li>
+<li>SOURCES～レッドハット系ソフトウェア最新解説<br />【12】RHEL System Rolesを利用した構成管理<span class="author">&hellip;&hellip; 小島 啓史</span>
+</li>
+<li>ひみつのLinux通信<br />【43】キーワードは“宿題”<span class="author">&hellip;&hellip; くつなりょうすけ</span>
+</li>
+<li>Ubuntu Monthly Report<br />【89】LibreOffice 5.4の新機能<span class="author">&hellip;&hellip; あわしろいくや</span>
+</li>
+<li>Unixコマンドライン探検隊<br />【17】テキスト処理（その3）<span class="author">&hellip;&hellip; 中島 雅弘</span>
+</li>
+<li>Linuxカーネル観光ガイド<br />【65】Linux 4.4の変更点～メモリ領域のロック遅延とSYNパケット処理の効率化<span class="author">&hellip;&hellip; 青田 直大</span>
+</li>
+<li>Monthly News from jus<br />【71】「ITコミュニティ運営を考える」セッションの新たな試み<br />
+<span class="author">&hellip;&hellip; 榎 真治、法林 浩之</span>
+</li>
+<li>Hack For Japan～あなたのスキルは社会に役立つ<br />【69】高齢者ならではの視点が開発の幅を広げるシニアプログラミングネットワーク企画<span class="author">&hellip;&hellip; 小泉 勝志郎</span>
+</li>
+<li>温故知新 ITむかしばなし<br />【69】拡張メモリ～限界の壁をどのように乗り越えてきたのか<span class="author">&hellip;&hellip; 速水 祐</span>
+</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-8845-4","path":"\/dp\/ebook\/2017\/978-4-7741-8845-4","targetId":"978-4-7741-8845-4","parent":"\/dp","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

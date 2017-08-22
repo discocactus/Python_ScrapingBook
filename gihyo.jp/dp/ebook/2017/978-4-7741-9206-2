@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>3ステップでしっかり学ぶ Visual Basic入門［改訂2版］ | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="プログラミング言語をやさしく解説する書籍です。 Visual Basicの学習を始める人のために，文法の基本を徹底解説します。「ここでやること」「やってみよう」「理解しよう」という，予習→実践→復習の3つのプロセスを踏むことで，Visual Basicの基礎がしっかり，やさしく身に付きます！2009年に発刊した書籍を，前ページをカラー化し，内容も見直しよりわかりやすくなるようにリニューアルしました。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="3ステップでしっかり学ぶ Visual Basic入門［改訂2版］ | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="プログラミング言語をやさしく解説する書籍です。 Visual Basicの学習を始める人のために，文法の基本を徹底解説します。「ここでやること」「やってみよう」「理解しよう」という，予習→実践→復習の3つのプロセスを踏むことで，Visual Basicの基礎がしっかり，やさしく身に付きます！2009年に発刊した書籍を，前ページをカラー化し，内容も見直しよりわかりやすくなるようにリニューアルしました。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9206-2"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9206-2.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/3%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E3%81%A7%E3%81%97%E3%81%A3%E3%81%8B%E3%82%8A%E5%AD%A6%E3%81%B6">3<wbr/>ステップでしっかり学ぶ</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">3ステップでしっかり学ぶ<br/>Visual Basic<wbr/>入門<br/><span class="sub">［改訂<wbr/>2<wbr/>版］</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9206-2.jpg" alt="3ステップでしっかり学ぶ Visual Basic入門［改訂2版］"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">朝井淳　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-08-23">2017年8月23日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-08-23">2017年8月23日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9114-0" target="_blank">2017年8月23日に発売される書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">PDF</span><span class="buy">2,500円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">384</span>ページ相当</span><span class="pdf">PDF</span> <span class="plan">8月23日発売予定<a href="#" id="releaseNotify" class="" data-pid="401824" title="発売日にメールで通知する（要ログイン）">発売日に通知する</a></span></dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9206-2" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9206-2" data-text="3ステップでしっかり学ぶ Visual Basic入門［改訂2版］ #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9206-2" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9206-2"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9206-2" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>プログラミング言語をやさしく解説する書籍です。 Visual Basicの学習を始める人のために，<wbr/>文法の基本を徹底解説します。「ここでやること」「やってみよう」「理解しよう」という，<wbr/>予習→実践→復習の3つのプロセスを踏むことで，<wbr/>Visual Basicの基礎がしっかり，<wbr/>やさしく身に付きます！<br />
+2009年に発刊した書籍を，<wbr/>前ページをカラー化し，<wbr/>内容も見直しよりわかりやすくなるようにリニューアルしました。</p><h3>こんな方におすすめ</h3>
+<ul><li>はじめてVBを学習する人</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35155">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章　プログラムとは何か？</h3>
+<ul class="toc">
+<li>1-1 プログラムとは何か？</li>
+<li>1-2 Visual Basicとは何か？</li>
+<li>1-3 Visual Basic での開発手順</li>
+
+</ul>
+<h3>第2章　プログラムを作成しよう</h3>
+<ul class="toc">
+<li>2-1 プロジェクトを作る</li>
+<li>2-2 フォームにラベルを作成する</li>
+<li>2-3 ラベルに名前を付ける</li>
+<li>2-4 ボタンを作る</li>
+<li>2-5 プログラムを実行する</li>
+
+</ul>
+<h3>第3章　イベントを理解する</h3>
+<ul class="toc">
+<li>3-1 イベントとは？</li>
+<li>3-2 イベントプロシージャを作成する</li>
+<li>3-3 イベントプロシージャの中身を作成する</li>
+<li>3-4 コントロールのコピー・貼り付け・削除</li>
+<li>3-5 実行可能なプログラムを作る</li>
+
+</ul>
+<h3>第4章　プログラムの実行順序を確認しよう</h3>
+<ul class="toc">
+<li>4-1 プログラムの最小単位～命令文</li>
+<li>4-2 メソッド</li>
+<li>4-3 コメント</li>
+<li>4-4 ブレークポイント</li>
+<li>4-5 デバッガによるステップ実行</li>
+
+</ul>
+<h3>第5章　演算と変数</h3>
+<ul class="toc">
+<li>5-1 演算する</li>
+<li>5-2 式</li>
+<li>5-3 変数を使う</li>
+<li>5-4 変数名</li>
+<li>5-5 文字列結合</li>
+
+</ul>
+<h3>第6章　型と戻り値</h3>
+<ul class="toc">
+<li>6-1 文字列結合の復習</li>
+<li>6-2 数値と文字の違いを理解する</li>
+<li>6-3 型とは何か</li>
+<li>6-4 戻り値と型変換関数</li>
+<li>6-5 定数の型</li>
+<li>6-6 さまざまな型変換</li>
+
+</ul>
+<h3>第7章　Ifと条件式</h3>
+<ul class="toc">
+<li>7-1 Ifで場合わけをする</li>
+<li>7-2 条件式</li>
+<li>7-3 そうでないならば～Else，ElseIf</li>
+<li>7-4 ネスト（入れ子）</li>
+<li>7-5 複数の条件を組み合わせる～And</li>
+<li>7-6 複数の条件を組み合わせる～Or</li>
+
+</ul>
+<h3>第8章　繰り返し</h3>
+<ul class="toc">
+<li>8-1 Do Whileによる繰り返し</li>
+<li>8-2 繰り返し処理に条件式を付ける</li>
+<li>8-3 5回だけ繰り返す</li>
+<li>8-4 Forによる繰り返し</li>
+<li>8-5 Forの増減値を変更する</li>
+
+</ul>
+<h3>第9章　配列</h3>
+<ul class="toc">
+<li>9-1 一度に複数の変数を宣言する</li>
+<li>9-2 MeControls</li>
+<li>9-3 Controlsを使って合計を計算する</li>
+<li>9-4 配列を宣言して使う</li>
+
+</ul>
+<h3>第10章　プロシージャとファンクション</h3>
+<ul class="toc">
+<li>10-1 プロシージャを作成してみよう</li>
+<li>10-2 プロシージャを呼び出してみよう</li>
+<li>10-3 ファンクションを作成してみよう</li>
+<li>10-4 ファンクションに引数を加えてみよう</li>
+
+</ul>
+<h3>第11章　クラス</h3>
+<ul class="toc">
+<li>11-1 クラスを作成してみよう</li>
+<li>11-2 クラスにメソッドを作成してみよう</li>
+<li>11-3 コンストラクタを作成してみよう</li>
+<li>11-4 クラスにプロパティを作成してみよう</li>
+
+</ul>
+<h3>第12章　お絵かきプログラムの作成</h3>
+<ul class="toc">
+<li>12-1 フォームに円を表示してみよう</li>
+<li>12-2 マウスの移動で線を表示してみよう</li>
+<li>12-3 Paintイベントプロシージャで線を表示してみよう</li>
+
+</ul>
+<h3>第13章　ファイルIO</h3>
+<ul class="toc">
+<li>13-1 フォームにメニューを作成してみよう</li>
+<li>13-2 座標データをファイルに保存してみよう</li>
+<li>13-3 座標データをファイルから読み込んでみよう</li>
+<li>13-4 動きを確認してみよう</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書で使用しているサンプルファイルは，<wbr/>以下のリンクからダウンロードできます。</p>
+
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2017/978-4-7741-9114-0/download/Projects.zip">サンプルファイル（Projects.zip）</a></dd>
+</dl>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9206-2","path":"\/dp\/ebook\/2017\/978-4-7741-9206-2","targetId":"978-4-7741-9206-2","parent":"\/dp","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

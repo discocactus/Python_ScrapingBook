@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>ゼロからはじめる au Xperia XZs SOV35 スマートガイド | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="本書は，KDDIから発売されたスマートフォン「Xperia XZs SOV35」の初心者向け解説書です。通話，メール，インターネットなどの基本的な使い方のほか，Xperia XZs SOV35の独自機能，アプリケーションのインストールや使い方，auのサービスの利用方法なども解説しています。本書があれば，Xperia XZs SOV35の基本操作と活用法がバッチリわかります。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="ゼロからはじめる au Xperia XZs SOV35 スマートガイド | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="本書は，KDDIから発売されたスマートフォン「Xperia XZs SOV35」の初心者向け解説書です。通話，メール，インターネットなどの基本的な使い方のほか，Xperia XZs SOV35の独自機能，アプリケーションのインストールや使い方，auのサービスの利用方法なども解説しています。本書があれば，Xperia XZs SOV35の基本操作と活用法がバッチリわかります。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9164-5"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9164-5.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B">ゼロからはじめる</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">ゼロからはじめる<br/>au Xperia XZs SOV35 スマートガイド</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9164-5.jpg" alt="ゼロからはじめる au Xperia XZs SOV35 スマートガイド"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">リンクアップ　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-07-22">2017年7月22日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-07-22">2017年7月22日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9105-8" target="_blank">2017年7月22日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">1,340円 <a id="pid401801" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">256</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9164-5" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9164-5" data-text="ゼロからはじめる au Xperia XZs SOV35 スマートガイド #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9164-5" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9164-5"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9164-5" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>本書は，<wbr/>KDDIから発売されたスマートフォン「Xperia XZs SOV35」の初心者向け解説書です。通話，<wbr/>メール，<wbr/>インターネットなどの基本的な使い方のほか，<wbr/>Xperia XZs SOV35の独自機能，<wbr/>アプリケーションのインストールや使い方，<wbr/>auのサービスの利用方法なども解説しています。本書があれば，<wbr/>Xperia XZs SOV35の基本操作と活用法がバッチリわかります。</p><h3>こんな方におすすめ</h3>
+<ul><li>Xperia XZs SOV35を購入したAndroid端末初心者</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35080">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>Chapter 1　Xperia XZs SOV35のキホン</h3>
+<ul class="toc">
+<li>Section 01　Xperia XZs SOV35について</li>
+<li>Section 02　電源のオン・オフとロックの解除</li>
+<li>Section 03　SOV35の基本操作を覚える</li>
+<li>Section 04　ホーム画面の使い方</li>
+<li>Section 05　情報を確認する</li>
+<li>Section 06　アプリを利用する</li>
+<li>Section 07　ウィジェットを利用する</li>
+<li>Section 08　文字を入力する</li>
+<li>Section 09　テキストをコピー＆ペーストする</li>
+<li>Section 10　Googleアカウントを設定する</li>
+<li>Section 11　au IDパスワードを設定する</li>
+
+</ul>
+<h3>Chapter 2　電話機能を使う</h3>
+<ul class="toc">
+<li>Section 12　電話をかける・受ける</li>
+<li>Section 13　履歴を確認する</li>
+<li>Section 14　伝言メモを利用する</li>
+<li>Section 15　留守番電話を確認する</li>
+<li>Section 16　連絡先を利用する</li>
+<li>Section 17　着信拒否を設定する</li>
+<li>Section 18　通知音・着信音を変更する</li>
+<li>Section 19　音量やマナーモードを設定する</li>
+
+</ul>
+<h3>Chapter3　インターネットとメールを利用する</h3>
+<ul class="toc">
+<li>Section 20　Webページを閲覧する</li>
+<li>Section 21　Google検索を利用する</li>
+<li>Section 22　複数のWebページを同時に開く</li>
+<li>Section 23　ブックマークを利用する</li>
+<li>Section 24　SOV35で使える4種類のメール</li>
+<li>Section 25　Eメールアドレスを設定する</li>
+<li>Section 26　会話モードとフォルダモードを切り替える</li>
+<li>Section 27　会話モードでEメールを利用する</li>
+<li>Section 28　スレッドを管理する</li>
+<li>Section 29　パスワードや通知の設定を行う</li>
+<li>Section 30　シークレット機能を利用する</li>
+<li>Section 31　SMSを利用する</li>
+<li>Section 32　Gmailを使用する</li>
+<li>Section 33　Yahoo!メール・PCメールを設定する</li>
+
+</ul>
+<h3>Chapter 4　Googleのサービスを使いこなす</h3>
+<ul class="toc">
+<li>Section 34　Googleのサービスとは</li>
+<li>Section 35　Google Playでアプリを検索する</li>
+<li>Section 36　アプリをインストール・アンインストールする</li>
+<li>Section 37　有料アプリを購入する</li>
+<li>Section 38　Googleフォトを利用する</li>
+<li>Section 39　Googleマップを使いこなす</li>
+<li>Section 40　Googleカレンダーを利用する</li>
+<li>Section 41　YouTubeで世界中の動画を楽しむ</li>
+
+</ul>
+<h3>Chapter 5　便利な機能を使ってみる</h3>
+<ul class="toc">
+<li>Section 42　テレビ番組を視聴する</li>
+<li>Section 43　テレビ番組を録画する</li>
+<li>Section 44　スケッチでお絵描きをする</li>
+<li>Section 45　おサイフケータイを設定する</li>
+<li>Section 46　QRコードを読み取る</li>
+<li>Section 47　スクリーンショットを撮る</li>
+
+</ul>
+<h3>Chapter 6　音楽や写真・動画を楽しむ</h3>
+<ul class="toc">
+<li>Section 48　パソコンから音楽・写真・動画を取り込む</li>
+<li>Section 49　音楽を聴く</li>
+<li>Section 50　ハイレゾ音源を購入する</li>
+<li>Section 51　ハイレゾ音源を再生する</li>
+<li>Section 52　写真や動画を撮影する</li>
+<li>Section 53　カメラの撮影機能を活用する</li>
+<li>Section 54　画像合成機能を利用して写真を撮影する</li>
+<li>Section 55　写真を閲覧する</li>
+<li>Section 56　撮影した写真を活用する</li>
+<li>Section 57　アルバムのそのほかの機能を利用する</li>
+
+</ul>
+<h3>Chapter 7　ソニーのサービスを使いこなす</h3>
+<ul class="toc">
+<li>Section 58　ソニーのアカウントを登録する</li>
+<li>Section 59　ソニーのアプリを更新する</li>
+<li>Section 60　PlayStation Videoを利用する</li>
+<li>Section 61　ニュースをまとめ読みする</li>
+<li>Section 62　電子書籍を読む</li>
+<li>Section 63　電話帳にお店の情報を集める</li>
+<li>Section 64　Xperia Companionを使う</li>
+<li>Section 65　Xperiaの使いこなし情報を知る</li>
+<li>Section 66　録画したテレビ番組を閲覧する</li>
+<li>Section 67　ライフログを記録する</li>
+<li>Section 68　PlayStation 4と連携する</li>
+
+</ul>
+<h3>Chapter 8　auのサービスを使いこなす</h3>
+<ul class="toc">
+<li>Section 69　アプリをアップデートする</li>
+<li>Section 70　My auで利用料金を確認する</li>
+<li>Section 71　auスマートパスを利用する</li>
+<li>Section 72　auスマートパスでアプリを検索する</li>
+<li>Section 73　アプリをインストール・アンインストールする</li>
+<li>Section 74　おはなしアシスタントを利用する</li>
+<li>Section 75　au災害対策を利用する</li>
+
+</ul>
+<h3>Chapter 9　SOV35を使いこなす</h3>
+<ul class="toc">
+<li>Section 76　ホーム画面をカスタマイズする</li>
+<li>Section 77　通知パネルを使いこなす</li>
+<li>Section 78　ロック画面に通知を表示しないようにする</li>
+<li>Section 79　画面ロックに暗証番号を設定する</li>
+<li>Section 80　指紋認証で画面ロックを解除する</li>
+<li>Section 81　クイック設定ツールを利用する</li>
+<li>Section 82　標準のアプリを設定・変更する</li>
+<li>Section 83　着信時に本体を動かして応対する</li>
+<li>Section 84　アラームをセットする</li>
+<li>Section 85　アプリのアクセス許可を変更する</li>
+<li>Section 86　スマートバックライトを設定する</li>
+<li>Section 87　画面の色合いを調整する</li>
+<li>Section 88　フォントを変更する</li>
+<li>Section 89　壁紙を変更する</li>
+<li>Section 90　Wi-Fiを設定する</li>
+<li>Section 91　Wi-Fiテザリングを利用する</li>
+<li>Section 92　Bluetooth機器を利用する</li>
+<li>Section 93　STAMINAモードでバッテリーを長持ちさせる</li>
+<li>Section 94　設定を自動的に切り替える</li>
+<li>Section 95　SOV35をアップデートする</li>
+<li>Section 96　SOV35を初期化する</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9164-5","path":"\/dp\/ebook\/2017\/978-4-7741-9164-5","targetId":"978-4-7741-9164-5","parent":"\/dp\/genre\/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

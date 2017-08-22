@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>ああしたい！ こうしたい！ Excel＆Wordでできる 見積書 顧客リスト ビジネス定番書類のつくり方 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="日々の仕事で使う書類をExcelやWordで作成したい，せっかくパソコンがあるのだからもっと便利な機能を使ってみたいという人に向け，「送付状」「見積書」「名刺」「シフト表」といった「ビジネスシーンであると便利な書類」の作成方法を，そのまま利用できるサンプルを使って解説します。すぐに使えるサンプルを付属CD-ROMに収録。Excel/Word 2016/2013/2010対応。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="ああしたい！ こうしたい！ Excel＆Wordでできる 見積書 顧客リスト ビジネス定番書類のつくり方 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="日々の仕事で使う書類をExcelやWordで作成したい，せっかくパソコンがあるのだからもっと便利な機能を使ってみたいという人に向け，「送付状」「見積書」「名刺」「シフト表」といった「ビジネスシーンであると便利な書類」の作成方法を，そのまま利用できるサンプルを使って解説します。すぐに使えるサンプルを付属CD-ROMに収録。Excel/Word 2016/2013/2010対応。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9166-9"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9166-9.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E3%81%82%E3%81%82%E3%81%97%E3%81%9F%E3%81%84%EF%BC%81%E3%80%80%E3%81%93%E3%81%86%E3%81%97%E3%81%9F%E3%81%84%EF%BC%81">ああしたい！　こうしたい！</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">ああしたい！ こうしたい！ Excel<wbr/>＆<wbr/>Word<wbr/>でできる 見積書 顧客リスト ビジネス定番書類のつくり方</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9166-9.jpg" alt="ああしたい！ こうしたい！ Excel＆Wordでできる 見積書 顧客リスト ビジネス定番書類のつくり方"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">稲村暢子　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-07-25">2017年7月25日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-07-25">2017年7月25日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9057-0" target="_blank">2017年7月25日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">1,850円 <a id="pid401804" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">192</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9166-9" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9166-9" data-text="ああしたい！ こうしたい！ Excel＆Wordでできる 見積書 顧客リスト ビジネス定番書類のつくり方 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9166-9" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9166-9"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9166-9" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>日々の仕事で使う書類をExcelやWordで作成したい，<wbr/>せっかくパソコンがあるのだからもっと便利な機能を使ってみたいという人に向け，<wbr/>「送付状」「見積書」「名刺」「シフト表」といった「ビジネスシーンであると便利な書類」の作成方法を，<wbr/>そのまま利用できるサンプルを使って解説します。すぐに使えるサンプルを付属CD-ROMに収録。Excel/Word 2016/2013/2010対応。</p><h3>こんな方におすすめ</h3>
+<ul><li>ビジネスの現場で使える書類のつくり方を知りたい人</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35092">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><ul class="toc">
+<li>本書の作例</li>
+<li>本書の使い方</li>
+<li>CD-ROMの使い方</li>
+<li>基本操作を覚えておこう Officeの基本操作</li>
+<li>書類の基本を押さえよう わかりやすい書類作成のポイント</li>
+</ul>
+
+<h3>Part1　作例のつくり方<br />
+<br />
+Chapter01 移転お祝いお礼状</h3>
+<ul class="toc">
+<li>1 ページの余白と行数を設定する</li>
+<li>2 あいさつ文を挿入する</li>
+<li>3 特殊な文字を入力する</li>
+<li>4 フォントの種類などを変更する</li>
+<li>5 行の開始位置を変更する</li>
+
+<li>ああしたい！ こうしたい！</li>
+<li>文書をきれいに整えたい</li>
+<li>表を使った文書を作成したい</li>
+
+
+</ul>
+<h3>Chapter02 見積書・納品書・請求書</h3>
+<ul class="toc">
+<li>1 印刷の向きと用紙サイズを設定する</li>
+<li>2 日付を入力する</li>
+<li>3 列の幅と行の高さを調整する</li>
+<li>4 複数のセルを結合する</li>
+<li>5 セルに書式を設定する</li>
+<li>6 セルに罫線を設定する</li>
+<li>7 計算式・関数を入力する</li>
+<li>8 納品書・請求書を作成する</li>
+
+<li>ああしたい！ こうしたい！</li>
+<li>リストから入力項目を選択したい</li>
+<li>品名を入力すると単価が表示されるようにしたい</li>
+<li>「#N/A」が表示されないようにしたい</li>
+
+
+</ul>
+<h3>Chapter03 小口現金出納帳</h3>
+<ul class="toc">
+<li>1 科目のリストを作成する</li>
+<li>2 残高を求める計算式を入力する</li>
+<li>3 合計と差引金額を求める</li>
+
+<li>ああしたい！ こうしたい！</li>
+<li>科目ごとに集計したい</li>
+
+
+</ul>
+<h3>Chapter04 顧客リスト</h3>
+<ul class="toc">
+<li>1 表の体裁を整える</li>
+<li>2 番号とふりがなの設定をする</li>
+<li>3 データの入力規則を設定する</li>
+<li>4 データを入力する</li>
+<li>5 見出しを固定する</li>
+
+<li>ああしたい！ こうしたい！</li>
+<li>はがきの宛名を印刷したい</li>
+
+
+</ul>
+<h3>Chapter05 フォトコンテストのポスター</h3>
+<ul class="toc">
+<li>1 用紙サイズを設定する</li>
+<li>2 画像を挿入する</li>
+<li>3 テキストボックスでタイトルをつくる</li>
+<li>4 テキストボックスで本文をつくる</li>
+<li>5 同じサイズの画像を複数配置する</li>
+<li>6 会社名とURLを入力する</li>
+
+<li>ああしたい！ こうしたい！</li>
+<li>タイトルを目立たせたい</li>
+<li>文字入りの図形をつくりたい</li>
+<li>背景に画像や色を設定したい</li>
+
+
+</ul>
+<h3>Chapter06 ビジネス名刺</h3>
+<ul class="toc">
+<li>1 ラベル用紙を設定する</li>
+<li>2 氏名や社名を入力する</li>
+<li>3 会社ロゴの画像を挿入する</li>
+<li>4 ほかのラベルにコピーする</li>
+
+<li>ああしたい！ こうしたい！</li>
+<li>カードに囲み線や色を設定したい</li>
+<li>表を使ってスタンプカードをつくりたい</li>
+
+
+</ul>
+<h3>Chapter07 シフト表</h3>
+<ul class="toc">
+<li>1 年・月・日を入力する</li>
+<li>2 曜日を表示する</li>
+<li>3 29日以降の日付の表示を設定する</li>
+<li>4 土・日のセルの色を変更する</li>
+<li>5 29日以降の日付の書式を変更する</li>
+<li>6 印刷の向きと改ページの設定をする</li>
+
+<li>ああしたい！ こうしたい！</li>
+<li>ずっと使えるカレンダーをつくりたい</li>
+<li>時間と給与を計算したい</li>
+</ul>
+
+<h3>Part2　書類作成に便利なテクニック</h3>
+<ul class="toc">
+<li>Q01 セルの範囲に連続したデータを入力したい</li>
+<li>Q02 特定のデータだけを置き換えたい</li>
+<li>Q03 セル内で改行したい</li>
+<li>Q04 行や列を追加したい</li>
+<li>Q05 複数の列の幅を揃えたい</li>
+<li>Q06 一部の列を非表示にしたい</li>
+<li>Q07 データを五十音順や数値の大きい順に並べ替えたい</li>
+<li>Q08 特定のデータだけを表示したい</li>
+<li>Q09 すべてのページにページ番号を入れて印刷したい</li>
+<li>Q10 シートの一部を印刷したい</li>
+<li>Q11 1ページにおさめて印刷したい</li>
+<li>Q12 段組みを設定したい</li>
+<li>Q13 曲線を描きたい</li>
+<li>Q14 線の太さや種類を変更したい</li>
+<li>Q15 インターネット上の画像を挿入したい</li>
+<li>Q16 すべてのページにページ番号や日付を表示したい</li>
+<li>Q17 テンプレートとして保存したい</li>
+<li>Q18 テンプレートから新規文書を作成したい</li>
+<li>Q19 文書のデザインを一新したい</li>
+<li>Q20 色の組み合わせを変えたい</li>
+<li>Q21 フォントの組み合わせを変えたい</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<h4>電子版用ダウンロード</h4>
+<p><a href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9166-9">電子版</a>用に，<wbr/>付録CD-ROM収録コンテンツを以下から入手できます。ダウンロードには電子版本紙に掲載されているIDとパスワードが必要です。</p>
+
+<style>p.error{color:red;font-weight:bold;position:absolute;margin-top:1em}.download-account{display:block;padding:1em;margin-top:1em;border:1px solid #E5E5E5;margin-bottom:1em}.download-account p{margin:5px 0}.download-account .filename{font-size:14px;color:#888;text-align:right;margin-bottom:-5px}.download-account label{display:block;text-indent:0;width:5em;float:left;margin-right:1em;vertical-align:middle}.download-account input{-webkit-appearance:none;border:1px solid #BBB;font-size:16px;padding:5px;border-radius:4px;width:10em}.download-account input[type="submit"]{display:block;width:10.5em;background:#08F;color:white;font-weight:bold;border:1px #04D solid;float:right;margin-top:-70px;line-height:53px;-webkit-box-sizing:border-box;box-sizing:border-box}.download-account input[type="submit"]:hover{background:#04D}</style><form action="#support" method="post" class="download-account uk8a414faf165b21a72e6a03bc894cde4a"><p><label>ID</label><input type="text" name="u" required></p><p><label>パスワード</label><input type="password" name="p" required></p><p><input type="submit" value="ダウンロード"><input type="hidden" name="t" value="1503327169"></p><p class="filename">Gihyo_excel_word_Cdoc.zip（31MB）</p><input type="hidden" name="fn" value="Gihyo_excel_word_Cdoc.zip"></form><script defer>(function(){document.querySelector('.uk8a414faf165b21a72e6a03bc894cde4a input[type="submit"]').addEventListener('click',function(e){document.querySelector('.uk8a414faf165b21a72e6a03bc894cde4a').submit();});}());</script>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9166-9","path":"\/dp\/ebook\/2017\/978-4-7741-9166-9","targetId":"978-4-7741-9166-9","parent":"\/dp\/genre\/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /tagList
+Disallow: /*?
+Allow: /*?page
+Allow: /*?start
+Allow: /book/genre
+Allow: /book/series
+Allow: /book/topics
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: bingbot
+Disallow: /
+
+User-agent: Pinterest
+Disallow: /

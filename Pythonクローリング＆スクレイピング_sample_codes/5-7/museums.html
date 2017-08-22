@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+<title>日本の美術館</title>
+<style>
+html, body, #map { height: 100%; margin: 0; padding: 0; }
+</style>
+<div id="map"></div>
+<script>
+function initMap() {
+	// 地図を初期化する。
+	var map = new google.maps.Map(document.getElementById('map'), {
+		center: { lat: 35.7, lng: 137.7 },
+		zoom: 7
+	});
+	// InfoWindowオブジェクトを作成する。
+	var infowindow = new google.maps.InfoWindow();
+
+	// geojsonファイルの相対URLを指定する。
+	var geojsonUrl = './museums.geojson';
+	// geojsonファイルを読み込んで表示する。
+	map.data.loadGeoJson(geojsonUrl);
+
+	// マーカーをクリックしたときに実行するイベントリスナーを登録する。
+	map.data.addListener('click', function(e) {
+		// h2要素を作成し、美術館の名前（label）を追加する。
+		var h2 = document.createElement('h2');
+		h2.textContent = e.feature.getProperty('label');
+		// div要素を作成し、h2要素と美術館の住所（address）を追加する。
+		var div = document.createElement('div');
+		div.appendChild(h2);
+		div.appendChild(document.createTextNode(
+				'住所: ' + e.feature.getProperty('address')));
+
+		// InfoWindowに表示する中身としてdiv要素を指定する。
+		infowindow.setContent(div);
+		// 表示場所としてマーカーの地点を指定する。
+		infowindow.setPosition(e.feature.getGeometry().get());
+		// 指定した地点から38ピクセル上に表示するよう指定する。
+		infowindow.setOptions({pixelOffset: new google.maps.Size(0, -38)});
+		// InfoWindowを表示する。
+		infowindow.open(map);
+	});
+}
+</script>
+<!-- Google Maps JavaScript APIのスクリプトを読み込む。完了したらinitMap()関数が呼び出される。 -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>

@@ -1,0 +1,394 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>たった1日で基本が身に付く！ C# 超入門 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="「たった1日で基本が身に付く！」というコンセプトに沿って，簡易なサンプルでC#によるアプリケーション開発の流れが体験できるように構成。前半ではコンソールアプリケーションを作成して，クラス，メソッド，変数，計算，条件分岐，繰り返しといったC#の基本文法を学習。後半では「時計」「じゃんけんゲーム」「画像ビューワー」という3つのフォームアプリケーションを作成し，Visual Studioによるフォームデザインの操作，イベント設定といったGUIアプリケーションの基本を学習します。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="たった1日で基本が身に付く！ C# 超入門 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="「たった1日で基本が身に付く！」というコンセプトに沿って，簡易なサンプルでC#によるアプリケーション開発の流れが体験できるように構成。前半ではコンソールアプリケーションを作成して，クラス，メソッド，変数，計算，条件分岐，繰り返しといったC#の基本文法を学習。後半では「時計」「じゃんけんゲーム」「画像ビューワー」という3つのフォームアプリケーションを作成し，Visual Studioによるフォームデザインの操作，イベント設定といったGUIアプリケーションの基本を学習します。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9188-1"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9188-1.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E3%81%9F%E3%81%A3%E3%81%9F1%E6%97%A5%E3%81%A7%E5%9F%BA%E6%9C%AC%E3%81%8C%E8%BA%AB%E3%81%AB%E4%BB%98%E3%81%8F%EF%BC%81">たった<wbr/>1<wbr/>日で基本が身に付く！</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">たった1日で基本が身に付く！<br/>C# 超入門</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9188-1.jpg" alt="たった1日で基本が身に付く！ C# 超入門"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">西村誠　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-07-29">2017年7月29日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-07-29">2017年7月29日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9086-0" target="_blank">2017年7月29日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">2,060円 <a id="pid401808" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">192</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9188-1" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9188-1" data-text="たった1日で基本が身に付く！ C# 超入門 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9188-1" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9188-1"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9188-1" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>「たった1日で基本が身に付く！」というコンセプトに沿って，<wbr/>簡易なサンプルでC#によるアプリケーション開発の流れが体験できるように構成。前半ではコンソールアプリケーションを作成して，<wbr/>クラス，<wbr/>メソッド，<wbr/>変数，<wbr/>計算，<wbr/>条件分岐，<wbr/>繰り返しといったC#の基本文法を学習。後半では「時計」「じゃんけんゲーム」「画像ビューワー」という3つのフォームアプリケーションを作成し，<wbr/>Visual Studioによるフォームデザインの操作，<wbr/>イベント設定といったGUIアプリケーションの基本を学習します。</p><h3>こんな方におすすめ</h3>
+<ul><li>はじめてC#を学習する人</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35114">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>CHAPTER1　プログラミングの準備をしよう</h3>
+<ul class="toc">
+
+<li>SECTION 01　プログラミングって何？<ul class="toc">
+	<li>プログラミングとは？</li>
+	<li>プログラミング言語とは？</li>
+	</ul></li>
+
+<li>SECTION 02　C#の特徴を理解しよう<ul class="toc">
+	<li>C#が使われる場面</li>
+	<li>C#の特徴とは？</li>
+	<li>優れた開発ツールVisual Studioが利用できる</li>
+	<li>コンピューターにできることを理解するのも重要</li>
+	</ul></li>
+
+<li>SECTION 03　開発に何が必要になるの？<ul class="toc">
+	<li>本書で扱う環境</li>
+	<li>Visual Studioをインストールする</li>
+	</ul></li>
+</ul>
+<h3>CHAPTER2　プログラミングの基本をマスターしよう</h3>
+<ul class="toc">
+
+<li>SECTION 01　Visual Studioでのプログラム開発の流れを理解しよう<ul class="toc">
+	<li>開発の流れを確認する</li>
+	</ul></li>
+
+<li>SECTION 02　プロジェクトの作成とVisual Studioの初期構成を知ろう<ul class="toc">
+	<li>プロジェクトを作成する</li>
+	<li>プロジェクトの初期画面構成を確認する</li>
+	<li>＜エラー一覧＞ウィンドウを表示する</li>
+	</ul></li>
+
+<li>SECTION 03　簡単なプログラムを入力して実行しよう<ul class="toc">
+	<li>プログラムを記述する</li>
+	<li>プログラムを実行する</li>
+	</ul></li>
+
+<li>SECTION 04　C#の基本構造を理解しよう<ul class="toc">
+	<li>Program.csの内容を確認する</li>
+	<li>C#のプログラムコードの構造を理解する</li>
+	</ul></li>
+</ul>
+<h3>CHAPTER3　C#で簡単な計算をしよう</h3>
+<ul class="toc">
+
+
+
+<li>SECTION 01　計算しよう<ul class="toc">
+	<li>足し算，引き算，掛け算，割り算をする</li>
+	<li>演算の優先順位を理解する</li>
+	<li>C#ではできない記法，エラーとなる記法</li>
+	</ul></li>
+
+<li>SECTION 02　変数を使おう<ul class="toc">
+	<li>変数とは？</li>
+	<li>代表的な型を確認する</li>
+	<li>変数を応用する</li>
+	</ul></li>
+
+<li>SECTION 03　配列を使おう<ul class="toc">
+	<li>配列とは？</li>
+	</ul></li>
+</ul>
+<h3>CHAPTER4　クラスを理解しよう</h3>
+<ul class="toc">
+
+
+
+<li>SECTION 01　クラスの基礎を理解しよう<ul class="toc">
+	<li>クラスとは？</li>
+	<li>オブジェクト指向とは？</li>
+	<li>クラスの基本的な構文を確認する</li>
+	<li>クラスを利用する</li>
+	<li>メソッドの使い方を理解する</li>
+	<li>クラスのまとめ</li>
+	</ul></li>
+
+<li>SECTION 02　クラスの継承と初期化とは？<ul class="toc">
+	<li>変数の有効範囲とthisとは？</li>
+	<li>継承とは？</li>
+	<li>インスタンス作成時に初期化する</li>
+	<li>Mainメソッドに付いている「static」とは何か？</li>
+	</ul></li>
+
+<li>SECTION 03　実際にクラスを作ろう<ul class="toc">
+	<li>クラスを作成する</li>
+	<li>実践でクラスを少しずつ理解する</li>
+	</ul></li>
+</ul>
+<h3>CHAPTER5   条件分岐と繰り返しを覚えよう</h3>
+<ul class="toc">
+
+
+
+<li>SECTION 01　条件分岐でプログラムの流れを変えよう<ul class="toc">
+	<li>制御構文とは？</li>
+	<li>if文で分岐する</li>
+	<li>switch文で分岐する</li>
+	<li>条件式で使う主な演算子を確認する</li>
+	</ul></li>
+
+<li>SECTION 02　条件分岐を実践しよう<ul class="toc">
+	<li>入力を受け取る</li>
+	<li>入力文字を判定して結果を返す</li>
+	</ul></li>
+
+<li>SECTION 03　1つの処理を繰り返そう<ul class="toc">
+	<li>foreach文で繰り返す</li>
+	<li>for文で繰り返す</li>
+	<li>while文で繰り返す</li>
+	<li>do-while文で繰り返す</li>
+	<li>break文で繰り返しを終了する</li>
+	<li>continue文で繰り返しをスキップする</li>
+	</ul></li>
+
+<li>SECTION 04　繰り返し処理を実践しよう<ul class="toc">
+	<li>フラグを用意する</li>
+	<li>プログラムを実行する</li>
+	</ul></li>
+</ul>
+<h3>CHAPTER6　時計アプリケーションを作ろう</h3>
+<ul class="toc">
+
+
+
+<li>SECTION 01　フォームアプリケーション用のプロジェクトを作ろう<ul class="toc">
+	<li>作成するアプリケーションの概要</li>
+	<li>プロジェクトを作成する</li>
+	<li>フォームアプリケーション用の画面構成を確認する</li>
+	<li>プロジェクトの初期構成を確認する</li>
+	</ul></li>
+
+<li>SECTION 02　時計アプリケーションを作ろう<ul class="toc">
+	<li>画面を編集する</li>
+	<li>プログラムを記述する</li>
+	<li>現在の時刻を取得する</li>
+	<li>定期的に処理を行う（タイマーイベント）</li>
+	</ul></li>
+</ul>
+<h3>CHAPTER7　じゃんけんアプリケーションを作ろう</h3>
+<ul class="toc">
+
+
+<li>SECTION 01　じゃんけんアプリケーションの画面を作ろう<ul class="toc">
+	<li>作成するアプリケーションの概要</li>
+	<li>画面を編集する</li>
+	<li>Labelを配置する</li>
+	<li>PictureBoxを配置する</li>
+	</ul></li>
+
+<li>SECTION 02　じゃんけんアプリケーションのコードを編集しよう<ul class="toc">
+	<li>ボタンのイベントを設定する</li>
+	<li>コンピューターの手を決める</li>
+	<li>画像を表示する</li>
+	</ul></li>
+</ul>
+<h3>CHAPTER8　画像ビューワーアプリケーションを作ろう</h3>
+<ul class="toc">
+
+
+<li>SECTION 01　画像ビューワーの画面を作ろう<ul class="toc">
+	<li>作成するアプリケーションの概要</li>
+	<li>ボタンを配置する</li>
+	<li>PictureBoxを配置する</li>
+	<li>ボタンにイベントを設定する</li>
+	<li>OpenFileDialogを配置する</li>
+	</ul></li>
+
+<li>SECTION 02　画像ビューワーのコードを編集しよう<ul class="toc">
+	<li>ファイルダイアログボックスを表示する</li>
+	<li>ファイルを取得する</li>
+	</ul></li>
+
+<li>SECTION 03　画像の一覧から表示する画像を選択しよう<ul class="toc">
+	<li>作成するアプリケーションの概要</li>
+	<li>コントロールを配置する</li>
+	<li>コードを記述する</li>
+	</ul></li>
+</ul>
+<h3>CHAPTER9　次のステップを知ろう</h3>
+<ul class="toc">
+
+
+<li>SECTION 01　次のステップとは？<ul class="toc">
+	<li>実際にプログラムを入力する</li>
+	<li>本書のサンプルを少し変えてみる</li>
+	<li>C#についてさらに調べる</li>
+	<li>自分が作りたいものについて調べる</li>
+	<li>他人のコードから学ぶ</li>
+	<li>何かを作る</li>
+	<li>複数人で何かを作る</li>
+	</ul></li>
+
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書で解説しているプログラムのサンプルファイルをダウンロードできます。<br />
+ダウンロードしたファイルを解凍してご利用ください。</p>
+
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2017/978-4-7741-9086-0/download/csharp_sample.zip">サンプルファイル</a></dd>
+</dl>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9188-1","path":"\/dp\/ebook\/2017\/978-4-7741-9188-1","targetId":"978-4-7741-9188-1","parent":"\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

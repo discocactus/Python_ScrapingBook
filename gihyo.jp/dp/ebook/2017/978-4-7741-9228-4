@@ -1,0 +1,731 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Puppet［設定＆管理］活用ガイド | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="サーバーやネットワーク機器などの構築・管理の自動化に注目が集まっています。Puppetは構成管理ツールの中でも歴史が古く，実績があるツールです。Puppetは，専用言語でマニフェスト（システムのあるべき状態）を記述するため，その習得コストがかかるものの，開発と運用管理の担当者が異なることが多い日本に適したツールと言えます。本書はPuppetの基本から利用事例・ベストプラクティスまで，経験豊富な著者が蓄積したノウハウをあますことなく，かつわかりやすくまとめています。"/>
+  <meta name="keywords" content="菅原亮,落合秀俊,佐々木優太朗,横山浩輔,黒岩良太電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="Puppet［設定＆管理］活用ガイド | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="サーバーやネットワーク機器などの構築・管理の自動化に注目が集まっています。Puppetは構成管理ツールの中でも歴史が古く，実績があるツールです。Puppetは，専用言語でマニフェスト（システムのあるべき状態）を記述するため，その習得コストがかかるものの，開発と運用管理の担当者が異なることが多い日本に適したツールと言えます。本書はPuppetの基本から利用事例・ベストプラクティスまで，経験豊富な著者が蓄積したノウハウをあますことなく，かつわかりやすくまとめています。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9228-4"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9228-4.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%BBUNIX%E3%83%BB%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Puppet<wbr/>［設定＆<wbr/>管理］<wbr/>活用ガイド</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9228-4.jpg" alt="Puppet［設定＆管理］活用ガイド"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">菅原亮，<wbr/>落合秀俊，<wbr/>佐々木優太朗，<wbr/>横山浩輔，<wbr/>黒岩良太　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-08-24">2017年8月24日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-08-24">2017年8月24日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9116-4" target="_blank">2017年8月24日に発売される書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">PDF</span><span class="buy">3,700円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">368</span>ページ相当</span><span class="pdf">PDF</span> <span class="plan">8月24日発売予定<a href="#" id="releaseNotify" class="" data-pid="401825" title="発売日にメールで通知する（要ログイン）">発売日に通知する</a></span></dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9228-4" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9228-4" data-text="Puppet［設定＆管理］活用ガイド #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9228-4" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9228-4"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9228-4" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>サーバーやネットワーク機器などの構築・<wbr/>管理の自動化に注目が集まっています。Puppetは構成管理ツールの中でも歴史が古く，<wbr/>実績があるツールです。Puppetは，<wbr/>専用言語でマニフェスト（システムのあるべき状態）を記述するため，<wbr/>その習得コストがかかるものの，<wbr/>開発と運用管理の担当者が異なることが多い日本に適したツールと言えます。本書はPuppetの基本から利用事例・<wbr/>ベストプラクティスまで，<wbr/>経験豊富な著者が蓄積したノウハウをあますことなく，<wbr/>かつわかりやすくまとめています。</p><h3>こんな方におすすめ</h3>
+<ul><li>Puppetによる構成管理の自動化に興味のある人</li><li>Puppetのユーザーで，<wbr/>いろいろなノウハウを吸収したい人</li></ul>
+<aside class="author"><h3>菅原亮（すがはらりょう）</h3><p>2005年に株式会社NTTデータ入社。2012年よりインフラ自動化関連プロジェクトに着任したのをきっかけにPuppetを知る。2014年にPuppetドキュメントの日本語化を通じてPuppet社との関係が始まり，<wbr/>周囲の協力も得て2015年日本で初めてのPuppetユーザ会を設立，<wbr/>初代会長として現在も日本でPuppetを広めるために尽力している。</p>
+</aside><aside class="author"><h3>落合秀俊（おちあいひでとし）</h3><p>2001年に株式会社NTTデータ入社。2009年にHadoopのプロジェクトで初めてPuppetに触れる。NTT OSSセンタと共にPuppetの設計手法の汎用化を行い，<wbr/>そのノウハウをベースに複数の大規模プロジェクトでPuppetの適用を実施。2017年現在，<wbr/>日本のIT産業の脱3Kを目指し，<wbr/>社内の公共・<wbr/>社会基盤分野のプロジェクトにインフラ自動化の推進を行っている。</p>
+</aside><aside class="author"><h3>佐々木優太朗（ささきゆうたろう）</h3><p>2009年に株式会社NTTデータ入社。入社以来，<wbr/>金融，<wbr/>公共の大規模ミッションクリティカルシステムのインフラ開発・<wbr/>運用に従事。また，<wbr/>インフラのベストプラクティスを社内に普及展開する活動の中で，<wbr/>インフラ自動化技術を活用し，<wbr/>その効果を肌で実感。2016年に社内の開発環境を集約した「統合開発クラウド」でPuppetを活用。現在は，<wbr/>本書執筆を陰で支えてくれた妻に感謝しつつ，<wbr/>インフラ自動化の普及展開に奮闘中。</p>
+</aside><aside class="author"><h3>横山浩輔（よこやまこうすけ）</h3><p>2010年に株式会社NTTデータ入社。2012年にHadoopを利用するプロジェクトに参画した際，<wbr/>システム基盤の構築，<wbr/>維持管理で初めてPuppetを利用。以後幾つかの大規模プロジェクトでPuppetを主とした基盤自動化技術を担当。その他，<wbr/>過去にNagiosでのHadoop基盤監視やVMware NSX(旧Nicira NVP)の技術検証など担当。</p>
+</aside><aside class="author"><h3>黒岩良太（くろいわりょうた）</h3><p>2012年に株式会社NTTデータ入社。2015年に大規模プロジェクトに参画した際，<wbr/>初めてPuppetを知り，<wbr/>Puppetを活用したシステム基盤の構築および維持管理を担当。その他，<wbr/>過去にパブリッククラウドサービス（AWS，<wbr/>Cloudn）の比較検証や，<wbr/>大規模プロジェクトにおいてジョブネット設計（JP1）などを担当。</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="35248">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>基本編<br />
+第1章　Puppetをはじめよう</h3>
+<h4>1.1　Puppetの動作環境</h4>
+
+<h4>1.2　Puppetのライセンスと入手方法</h4>
+<ul class="toc">
+<li>OSS版Puppetの特徴</li>
+<li>OSS版Puppetパッケージの導入</li>
+</ul>
+<h4>1.3　インストール後の動作確認</h4>
+
+<h3>第2章　マニフェストの書き方</h3>
+<h4>2.1　基本的な文法</h4>
+<ul class="toc">
+<li>コードの実行</li>
+<li>リソースとは</li>
+<li>リソースの宣言<ul class="toc">
+		<li>リソースの基本構造</li>
+		<li>リソースの記述例（その1）</li>
+		<li>リソースの記述例（その2）</li></ul></li>
+<li>リソースの実行順序と依存関係<ul class="toc">
+		<li>リソースの実行順序</li>
+		<li>依存関係</li>
+		<li>ドライランによるマニフェストの実行</li>
+		<li>マニフェストの実行</li>
+		<li>チェイニングリソースとチェイニングアロー</li>
+		<li>subscribeの使いどころ</li></ul></li>
+</ul>
+<h4>2.2　基本的なリソース</h4>
+<ul class="toc">
+<li>主なCore Types<ul class="toc">
+		<li>fileリソース</li>
+		<li>packageリソース</li>
+		<li>serviceリソース</li>
+		<li>notifyリソース</li>
+		<li>execリソース</li>
+		<li>cronリソース</li>
+		<li>userリソース</li>
+		<li>groupリソース</li></ul></li>
+<li>システムの状態をリソース化</li>
+<li>抽象化レイヤ（RAL）</li>
+<li>冪等性</li>
+</ul>
+<h4>2.3　変数とFacts</h4>
+<ul class="toc">
+<li>変数の基本</li>
+<li>データ型</li>
+<li>スコープ</li>
+<li>システム情報の取得</li>
+</ul>
+<h4>2.4　関数</h4>
+
+<h4>2.5　演算子</h4>
+<ul class="toc">
+<li>算術演算子</li>
+<li>比較演算子</li>
+</ul>
+<h4>2.6　条件分岐</h4>
+<ul class="toc">
+<li>if文</li>
+<li>unless文</li>
+<li>case文</li>
+<li>セレクタ</li>
+</ul>
+<h4>2.7　ループ構造</h4>
+<ul class="toc">
+<li>each</li>
+<li>slice</li>
+<li>filter</li>
+<li>map</li>
+<li>reduce</li>
+</ul>
+<h4>2.8　テンプレートの利用</h4>
+<ul class="toc">
+<li>テンプレートとは</li>
+<li>ERBテンプレートの使用<ul class="toc">
+		<li>外部のテンプレートファイルの使用</li>
+		<li>インラインテンプレートの使用</li></ul></li>
+<li>EPPテンプレートの使用<ul class="toc">
+		<li>外部のテンプレートファイルの使用</li>
+		<li>インラインテンプレートの使用</li></ul></li>
+<li>テンプレート化すべきもの</li>
+</ul>
+<h3>第3章　クラス・リソースの定義</h3>
+<h4>3.1　クラスの定義</h4>
+<ul class="toc">
+<li>クラスとは<ul class="toc">
+		<li>クラスの呼び出し方</li>
+		<li>クラスを使う際の注意点</li></ul></li>
+<li>クラスの依存関係</li>
+<li>パラメーター付きクラス</li>
+<li>パラメーターのデータ型<ul class="toc">
+		<li>データ型を指定しない場合</li>
+		<li>データ型を指定する場合</li>
+		<li>主なパラメーターのデータ型</li></ul></li>
+<li>クラスの継承</li>
+<li>［コラム］データ型の型変換</li>
+<li>includeとcontain</li>
+</ul>
+<h4>3.2　リソースの定義</h4>
+<ul class="toc">
+<li>リソース定義とクラスの関係</li>
+<li>リソースの定義</li>
+<li>クラス定義とリソース定義の違い</li>
+</ul>
+
+<h3>第4章　モジュールの活用</h3>
+<h4>4.1　モジュール</h4>
+<ul class="toc">
+<li>モジュールとは</li>
+<li>モジュールのひな型の生成</li>
+<li>クラスのモジュール化<ul class="toc">
+		<li>クラスを役割別に分解して定義</li>
+		<li>モジュールの定義</li></ul></li>
+<li>モジュールの呼び出し</li>
+<li>公開モジュールを使う<ul class="toc">
+		<li>モジュールの種類</li></ul></li>
+<li>モジュールを使ったApacheのインストール<ul class="toc">
+		<li>Quality ScoreとCommunity Rating</li>
+		<li>モジュールのインストール</li>
+		<li>Apacheのインストール</li>
+		<li>Apacheの起動確認</li>
+		<li>Apacheの設定変更</li>
+		<li>モジュール活用のススメ</li></ul></li>
+<li>［コラム］モジュール関連コマンド</li>
+<li>モジュールのドキュメント<ul class="toc">
+		<li>ドキュメントの重要性</li>
+		<li>README.md</li>
+		<li>モジュールの公開手順</li>
+		<li>モジュール名について</li>
+		<li>必要なメタデータが記述されていることを確認</li></ul></li>
+</ul>
+<h4>4.2　RoleとProfile</h4>
+<ul class="toc">
+<li>RoleとProfileの概要</li>
+<li>RoleとProfileの使い道<ul class="toc">
+		<li>Auto Scaleへの対応</li>
+		<li>GUIとの親和性</li>
+		<li>Hieraと合わせて利用</li></ul></li>
+<li>RoleとProfileを使ってみよう<ul class="toc">
+		<li>①Role/Profile作成前の準備</li>
+		<li>②使用するモジュールを選択</li>
+		<li>③Profileの作成</li>
+		<li>④Roleの作成</li>
+		<li>⑤ノード（node）へのRoleの割り当て</li></ul></li>
+</ul>
+<h3>第5章　Puppetの構成とインストール</h3>
+<h4>5.1　Puppetのシステム構成</h4>
+<ul class="toc">
+<li>スタンドアローン型構成<ul class="toc">
+		<li>Puppetの適用</li>
+		<li>マニフェストや配布ファイルなどの更新</li></ul></li>
+<li>エージェントマスタ型構成<ul class="toc">
+		<li>Puppetの適用</li>
+		<li>マニフェストの記述と配置</li>
+		<li>マニフェストや配布ファイルなどの更新</li>
+		<li>その他</li></ul></li>
+</ul>
+<h4>5.2　OSS版Puppet Serverのインストール</h4>
+<ul class="toc">
+<li>事前準備<ul class="toc">
+		<li>SELinuxの無効化</li>
+		<li>ファイアウォールの無効化</li></ul></li>
+<li>OSS版Puppet Serverの導入・設定</li>
+</ul>
+<h4>5.3　エンタープライズ版Puppetのインストール</h4>
+<ul class="toc">
+<li>エンタープライズ版Pupppetとは</li>
+<li>エンタープライズ版Puppetの入手</li>
+<li>エンタープライズ版Puppetの導入</li>
+</ul>
+<h4>5.4　トラブルシュート</h4>
+<ul class="toc">
+<li>メモリ不足に関するトラブル<ul class="toc">
+		<li>デバッグログの取得</li></ul></li>
+</ul>
+<h3>第6章　Hieraによるコードとデータの分離</h3>
+<h4>6.1　Hieraの概要</h4>
+
+<h4>6.2　Hieraの階層設計</h4>
+<ul class="toc">
+<li>Hieraの階層設計イメージ</li>
+<li>Hieraの階層設計の具体例<ul class="toc">
+		<li>hiera.yamlの例</li>
+		<li>hiera.yamlの記述内容</li>
+		<li>hiera.yamlのポイント</li></ul></li>
+</ul>
+<h4>6.3　クラスパラメータのHiera化</h4>
+<ul class="toc">
+<li>Hiera実装前のマニフェスト</li>
+<li>Hiera実装後のマニフェスト<ul class="toc">
+		<li>site.pp</li>
+		<li>YAMLファイル</li></ul></li>
+</ul>
+<h4>6.4　Hiera利用時に注意すべき点</h4>
+<h3>第7章　高度な機能の活用</h3>
+<h4>7.1　Execリソースを使いこなすポイント</h4>
+<ul class="toc">
+<li>Execリソースとは</li>
+<li>Execのよくあるトラブル</li>
+<li>そもそもExecを使わないようにする</li>
+<li>利用シーン：アーカイブファイルを展開してコマンドを実行<ul class="toc">
+		<li>createsパターン</li>
+		<li>subscribe＋refreshonlyパターン</li></ul></li>
+<li>利用シーン: 設定のためにコマンド実行する<ul class="toc">
+		<li>unlessで状態取得パターン</li></ul></li>
+<li>細かい注意点</li>
+</ul>
+<h4>7.2　パッケージの配布</h4>
+<ul class="toc">
+<li>rpmで提供されるパッケージ</li>
+<li>tarballで提供されるパッケージ<ul class="toc">
+		<li>puppet/stagingモジュールの利用例</li>
+		<li>puppet/stagingモジュールの実行例</li></ul></li>
+<li>ISOファイルで提供されるパッケージ</li>
+</ul>
+<h4>7.3　仮想リソースの活用</h4>
+<ul class="toc">
+<li>仮想リソースとは</li>
+<li>仮想リソースの利用方法</li>
+<li>事例<ul class="toc">
+		<li>複数人での開発による問題点</li>
+		<li>課題への対応</li>
+		<li>実装例</li></ul></li>
+</ul>
+<h4>7.4　Exported Resourcesの活用</h4>
+<ul class="toc">
+<li>Exported Resourcesとは<ul class="toc">
+		<li>Exported Resourcesの記述例</li></ul></li>
+<li>Exported Resourcesを使う準備<ul class="toc">
+		<li>PostgreSQLのインストールと設定</li>
+		<li>PuppetDBのインストールと設定</li></ul></li>
+<li>Exported Resourcesの利用方法<ul class="toc">
+		<li>Exported ResourcesによるNagiosの設定例</li></ul></li>
+<li>PuppetDBのエントリ削除</li>
+</ul>
+<h3>応用編<br />
+第8章　インフラ自動化のメリット</h3>
+<h4>8.1　なぜインフラ自動化を行うのか</h4>
+<ul class="toc">
+<li>変更に強くする</li>
+<li>品質向上<ul class="toc">
+		<li>構築時，サーバー間・環境間で意図しない差異が発生しない</li>
+		<li>設定変更を多数の環境，多数のサーバーに確実に反映する</li>
+		<li>環境の順次構築で自動化の仕組みを改善</li></ul></li>
+<li>構築期間の短縮，構築期間の精度向上</li>
+<li>作業効率化<ul class="toc">
+		<li>インフラ自動化の効果が発揮される場面</li>
+		<li>インフラ自動化のコストを下げる方法</li></ul></li>
+<li>［コラム］工数削減ばかり注目するのは危険のサイン</li>
+</ul>
+<h3>第9章　自動化に適したアーキテクチャ</h3>
+<h4>9.1　サーバー間の依存関係を減らす（サーバーの独立性）</h4>
+<ul class="toc">
+<li>システム構築時に段階的Puppet適用が困難</li>
+<li>システム運用時にチーム間調整が多くなる</li>
+</ul>
+<h4>9.2　機能とサーバーを1対1対応させる</h4>
+<ul class="toc">
+<li>1台に複数機能を詰め込まない</li>
+<li>1台に複数環境を同居させない</li>
+</ul>
+<h4>9.3　完全自動化できる構成にする</h4>
+
+<h4>9.4　インフラのテストが行いやすい構成にする（テスト容易性）</h4>
+
+<h4>9.5　自動化の範囲を見極める</h4>
+<ul class="toc">
+<li>インフラ自動化を導入する基準<ul class="toc">
+		<li>変更の多さ</li>
+		<li>導入先・設定先の多さ</li>
+		<li>自動化しやすさ</li></ul></li>
+<li>自動化しないソフトウェアを局所化する</li>
+</ul>
+<h3>第10章　複数人・複数環境でのインフラ管理</h3>
+<h4>10.1　インフラ体制の考え方</h4>
+
+<h4>10.2　SIプロジェクトでのインフラ変更管理</h4>
+<ul class="toc">
+<li>複数人での変更管理</li>
+<li>Gitを用いた資材管理</li>
+</ul>
+<h4>10.3　Directory Environmentによる複数環境の管理</h4>
+<ul class="toc">
+<li>［コラム］複数環境への変更適用の苦労</li>
+</ul>
+<h3>第11章　マニフェスト設計のベストプラクティス</h3>
+<h4>11.1　事前作業</h4>
+<ul class="toc">
+<li>対象のソフトウェアスタック</li>
+<li>分類項目とモジュールの組み合わせ<ul class="toc">
+		<li>作業対象範囲が広い分類項目</li>
+		<li>影響範囲が複数項目にまたがる分類項目</li>
+		<li>分類方法に正解が無いケースでの考え方</li></ul></li>
+</ul>
+<h4>11.2　モジュールの設計</h4>
+<ul class="toc">
+<li>手順書の作成と分析</li>
+<li>Apacheモジュールの設計<ul class="toc">
+		<li>installクラス</li>
+		<li>configクラス</li>
+		<li>serviceクラス</li>
+		<li>メインクラス</li>
+		<li>パラメータクラス</li></ul></li>
+</ul>
+<h4>11.3　コーディング規約</h4>
+<ul class="toc">
+<li>ファイルフォーマット</li>
+<li>一般的な記述のルール</li>
+<li>モジュール名，クラス名，変数名の付け方<ul class="toc">
+		<li>モジュール名</li>
+		<li>クラス名</li>
+		<li>変数名</li></ul></li>
+<li>パラメータ化する設定値の選定基準<ul class="toc">
+		<li>筆者の失敗例</li></ul></li>
+<li>制御構造の使い方</li>
+<li>コメントの記述</li>
+<li>ログの取得</li>
+<li>［コラム］ロールバックの考え方</li>
+</ul>
+<h3>第12章　自動化に向かない構成の乗りこなし方</h3>
+<h4>12.1　基本的な考え方</h4>
+
+<h4>12.2　HAクラスタ構成</h4>
+<ul class="toc">
+<li>HAクラスタ構成でPuppetを適用する場合の課題</li>
+<li>対処方法その1 &#8212;&#8212; HAクラスタ構成をやめて，シングルサーバーで可用性を高める仕組みにする<ul class="toc">
+		<li>VMware vSphereでのシングルサーバー構成</li></ul></li>
+<li>対処方法その2 &#8212;&#8212; Puppet化する範囲をActive/Stanbyに依存しない範囲に限定する</li>
+<li>対処方法その3 &#8212;&#8212; 共有ストレージ内の設定をPuppet化，Puppet定義は特定ノードに寄せる<ul class="toc">
+		<li>共有ストレージ内の設定をPuppetで行う条件</li>
+		<li>初期設定時のPuppet適用bootstrap</li></ul></li>
+</ul>
+<h4>12.3　ミドルウェアのマルチインスタンス構成</h4>
+<ul class="toc">
+<li>マルチインスタンス構成のPuppet化が難しい理由<ul class="toc">
+		<li>Puppetは1ノードに1クラスを1回しか適用できない</li>
+		<li>rpmなどパッケージ管理機能の制約</li></ul></li>
+<li>対処方法その1 &#8212;&#8212; マルチインスタンス構成をやめる</li>
+<li>対処方法その2 &#8212;&#8212; Puppet記述方法を工夫してマルチインスタンス構成に対応する<ul class="toc">
+		<li>defineを用いたマルチインスタンス化</li>
+		<li>モジュールを別名でコピー</li>
+		<li>マルチインスタンス構成の対応方法の比較</li></ul></li>
+<li>［コラム］Puppetで誤解しやすい文法</li>
+</ul>
+<h3>第13章　商用ソフトウェアのモジュール化</h3>
+<h4>13.1　事前調査</h4>
+<ul class="toc">
+<li>事前調査の観点（インストール方法）<ul class="toc">
+		<li>サイレントインストール機能</li>
+		<li>対話型インストーラへの対応</li>
+		<li>開発元からのサポート</li>
+		<li>ライセンス体系</li></ul></li>
+<li>事前調査の観点（設定方法）</li>
+</ul>
+<h4>13.2　モジュール化による商用ソフトウェアのインストール</h4>
+<ul class="toc">
+<li>Oracle Clientモジュールの例</li>
+</ul>
+<h3>第14章　インフラのテスト手法</h3>
+<h4>14.1　インフラ開発におけるV字モデル</h4>
+<ul class="toc">
+<li>インフラにおける単体テスト</li>
+<li>インフラにおける結合テスト</li>
+</ul>
+<h4>14.2　自動化構築・自動化テストを導入した場合のV字モデル</h4>
+<ul class="toc">
+<li>コードを用いた自動化開発<ul class="toc">
+		<li>自動化導入による開発プロセスの変化</li>
+		<li>自動化を導入した場合の品質保証</li>
+		<li>品質保証の具体例</li></ul></li>
+<li>Puppetマニフェストファイルの文法チェック（puppet-lint）<ul class="toc">
+		<li>その他</li></ul></li>
+<li>Puppetモジュール自体のテスト（rspec-puppet）<ul class="toc">
+		<li>テスト対象モジュールとマニフェストファイルの作成</li>
+		<li>rspec-puppetインストール，テストスクリプトの作成</li>
+		<li>テストスクリプト実行の例</li>
+		<li>その他</li></ul></li>
+<li>自動構築済みノードのテスト（Serverspec）<ul class="toc">
+		<li>インストール・初期設定</li>
+		<li>テストスクリプトの作成・実行</li></ul></li>
+<li>単体テスト以外の自動化について</li>
+<li>CIによるマニフェスト開発の例</li>
+<li>［コラム］V字モデルと品質保証</li>
+</ul>
+<h3>第15章　Puppetの運用設計</h3>
+<h4>15.1　変更の適用</h4>
+<ul class="toc">
+<li>自動適用が推奨されるケース</li>
+<li>手動適用が推奨されるケース</li>
+<li>エージェントマスタ型運用にしないケース</li>
+</ul>
+<h4>15.2　単独サーバーによる複数環境の管理</h4>
+<ul class="toc">
+<li>モジュールの配置例<ul class="toc">
+		<li>ベースモジュールディレクトリ</li>
+		<li>環境別のディレクトリ</li></ul></li>
+<li>環境の設定</li>
+<li>Direcotry Environmtの利用方法</li>
+</ul>
+<h4>15.3　Puppet Serverのバックアップ・リカバリ</h4>
+<ul class="toc">
+<li>証明書のバックアップ</li>
+<li>証明書のリカバリー</li>
+<li>Puppet Serverの冗長化</li>
+<li>システム構成</li>
+<li>［コラム］証明書の削除</li>
+</ul>
+<h4>15.4　MCollectiveによるジョブ実行</h4>
+<ul class="toc">
+<li>MCollectiveの活用</li>
+<li>MCollectiveの特徴</li>
+<li>MCollectiveの利用シーン</li>
+<li>MCollectiveのシステム構成</li>
+<li>MCollvetiveのセットアップ<ul class="toc">
+		<li>ActiveMQのセットアップ</li>
+		<li>MCollectiveクライアントのプラグインインストール</li>
+		<li>MCollectiveサーバーのプラグインインストール</li>
+		<li>MCollvetiveの設定</li></ul></li>
+<li>MCollectiveの操作<ul class="toc">
+		<li>ノードの情報取得</li>
+		<li>ノード指定のフィルタ</li>
+		<li>Puppetの制御</li></ul></li>
+<li>その他のコマンド<ul class="toc">
+		<li>サービス制御コマンド</li>
+		<li>パッケージ管理コマンド</li>
+		<li>ファイル操作コマンド</li>
+		<li>サーバー名の検索</li></ul></li>
+</ul>
+<h4>15.5　Windowsのパッケージ管理</h4>
+<ul class="toc">
+<li>Chocolateyによるパッケージ管理<ul class="toc">
+		<li>Chocolateyのインストール</li></ul></li>
+<li>PuppetでChocolateyを使う</li>
+		<li>Puppetエージェントのインストール</li>
+		<li>Chocolateyモジュールのインストール</li>
+		<li>Puppetマニフェストの例</li>
+<li>エージェントマスタ型構成<ul class="toc">
+		<li>社内など閉域ネットワーク下でのChocolateyの利用</li>
+		<li>リポジトリの作成手順</li>
+		<li>独自リポジトリの作成</li></ul></li>
+</ul>
+<h3>第16章　パラメーターシートからマニフェストの自動生成</h3>
+<h4>16.1　Hieraファイルを自動生成する</h4>
+<ul class="toc">
+<li>自動生成の対象</li>
+</ul>
+<h4>16.2　パラメーターシート</h4>
+<ul class="toc">
+<li>パラメーターシートと生成されるyamlの例</li>
+<li>パラメーターシートの単位</li>
+<li>パラメーターシートの例</li>
+<li>自動生成するyamlファイルの例</li>
+<li>その他の設定<ul class="toc">
+		<li>hiera.yaml</li>
+		<li>site.pp</li></ul></li>
+</ul>
+<h4>16.3　仕組み利用において注意すべき点</h4>
+<ul class="toc">
+<li>パラメーターシートの行追加</li>
+<li>仕組みの利用ルール制定と順守</li>
+</ul>
+<h3>第17章　ネットワーク機器とストレージ機器の管理</h3>
+<h4>17.1　Cisco製ネットワーク機器の管理</h4>
+<ul class="toc">
+<li>概要と利用シーン</li>
+<li>利用シーン1（1台のVLAN変更）</li>
+<li>利用シーン2（複数台のVLAN変更）</li>
+<li>Puppet対応のシステム構成<ul class="toc">
+		<li>Puppet対応のネットワーク機器（物理スイッチ）</li>
+		<li>Puppet対応のネットワーク機器（仮想スイッチ）</li>
+		<li>Puppetエージェントの設定</li>
+		<li>Puppetモジュール</li>
+		<li>RubyGems（cisco_node_utils）</li></ul></li>
+<li>NX-OSv 9000による検証環境の構築手順<ul class="toc">
+		<li>事前準備</li>
+		<li>VargrantによるNX-OSv 9000の展開</li>
+		<li>NX-OSv 9000へのPuppetエージェントのインストール手順</li>
+		<li>サンプルマニフェストの実行</li>
+		<li>その他のノウハウ</li></ul></li>
+</ul>
+<h4>17.2　EMC社製ストレージの管理</h4>
+<ul class="toc">
+<li>ストレージ構築，運用管理の課題</li>
+<li>ストレージの初期構築と構成変更</li>
+<li>ストレージ構築の自動化<ul class="toc">
+		<li>LUN（論理ユニット番号）</li>
+		<li>ストレージプール</li>
+		<li>ストレージグループ</li>
+		<li>イニシエーター</li></ul></li>
+<li>ストレージ構築の自動化事例紹介<ul class="toc">
+		<li>作業タスクリスト</li>
+		<li>VNX定義ファイル</li>
+		<li>VNX接続情報</li>
+		<li>VNXモジュール接続情報</li>
+		<li>設定値リスト</li></ul></li>
+<li>EMC VNX Puppet Moduleについて</li>
+<li>［コラム］SDS（Software Defined Storage）</li>
+</ul>
+<h4>17.3　NetApp社製ストレージの管理</h4>
+<ul class="toc">
+<li>必要なソフトウェアとサーバ</li>
+<li>［コラム］Data ONTAP/NetApp FASシリーズについて</li>
+<li>プロビジョニングの対象について</li>
+<li>管理の考え方</li>
+<li>アーキテクチャ／プロビジョニング<ul class="toc">
+		<li>Cluster-scopedオペレーション用設定ファイル（cluster.conf）</li></ul></li>
+<li>［コラム］複数ノードのプロビジョニングについて<ul class="toc">
+		<li>SVN-scopedオペレーション用設定ファイル（storagevm.conf）</li></ul></li>
+<li>Puppet module のインストール</li>
+<li>NetApp Manageability SDK の準備</li>
+<li>適用フロー</li>
+<li>マニフェストの作成サンプル</li>
+<li>2種類の概念<ul class="toc">
+		<li>Cluster-scopedオペレーション</li>
+		<li>SVM-Scopedオペレーション</li></ul></li>
+<li>ユースケース<ul class="toc">
+		<li>ストレージ管理者の操作（Cluster-scopedオペレーション）</li>
+		<li>テナント管理者の操作（SVM-scopedオペレーション）</li>
+		<li>マニフェストの適用</li></ul></li>
+<li>SVM管理者のユースケース<ul class="toc">
+		<li>ボリュームの拡張</li>
+		<li>スナップショットのスケジュール設定</li>
+		<li>NFSサービスの有効化</li></ul></li>
+<li>制約事項など</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書で使用しているサンプルファイルをダウンロードできます。ダウンロード後のファイルは圧縮ファイル（ZIPファイル）形式ですので、展開してから使用してください。</p>
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2017/978-4-7741-9116-4/download/puppet_samples.zip">puppet_samples.zip</a></dd>
+</dl>
+
+
+
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9228-4","path":"\/dp\/ebook\/2017\/978-4-7741-9228-4","targetId":"978-4-7741-9228-4","parent":"\/dp\/genre\/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%BBUNIX%E3%83%BB%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>
