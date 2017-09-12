@@ -49,6 +49,8 @@ def main():
         'features': features,
     }
     # FeatureCollectionを.geojsonという拡張子のファイルに書き出す
+    # GeoJSON対応ソフトウェアで表示できる
+    # GitHubやGistのプレビューでは操作可能な地図上に表示される
     with open('museum.geojson', 'w') as f:
         json.dump(feature_collection, f)
     
