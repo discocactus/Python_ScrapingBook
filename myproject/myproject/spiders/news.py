@@ -20,7 +20,7 @@ class NewsSpider(scrapy.Spider):
         for url in response.css('ul.topics a::attr("href")').re(r'/pickup/\d+$'):
             yield scrapy.Request(response.urljoin(url), self.parse_topics)
 
-    def parse_topics(selfSelf,response):
+    def parse_topics(self, response):
         """
         トピックスのページからタイトルと本文を抜き出す
         """
