@@ -35,3 +35,24 @@ class Restaurant(scrapy.Item):
     longitude = scrapy.Field()
     station = scrapy.Field()
     score = scrapy.Field()
+
+
+class Page(scrapy.Item):
+    """
+    Webページ
+    """
+
+    url = scrapy.Field()
+    title = scrapy.Field()
+    content = scrapy.Field()
+
+    def __repl__(self):
+        """
+        ログへの出力時に長くなり過ぎないよう、contentを省略する
+        """
+
+        p = Page(self) # このPageを複製したPageを得る
+        if len(p['content']) > 100:
+            p['content'] = p['content'][:100] + '...' # 100文字より長い場合は省略する
+
+        return super(Page, p).__repl__() # 複製したPageのもj列表現を返す
