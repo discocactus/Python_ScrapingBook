@@ -1,3 +1,7 @@
 .env
 credentials.json
 credentials.p12
+
+sample_codes.zip
+
+/.ipynb_checkpoints/*
